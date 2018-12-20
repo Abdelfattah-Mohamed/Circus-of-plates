@@ -7,6 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="res"/>
-	<classpathentry kind="lib" path="D:/University/OOPP/game/lib/engine_v3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abdelrahman/eclipse-workspace/game/engine_v3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

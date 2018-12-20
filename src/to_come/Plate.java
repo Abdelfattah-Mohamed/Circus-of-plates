@@ -1,6 +1,6 @@
 package to_come;
 
-public class Plate extends ImageObject {
+public class Plate extends ImageObject implements IPlate{
     private String color;
 
 
@@ -13,5 +13,16 @@ public class Plate extends ImageObject {
         super(posX, posY, path, type, state);
         this.color=color;
     }
+
+	@Override
+	public void setColor(String color) {
+		
+	}
+
+	@Override
+	public String getColor() {
+		
+		return this.color;
+	}
 
 }

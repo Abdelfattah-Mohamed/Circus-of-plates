@@ -74,7 +74,7 @@ public class Circus implements World {
 		// moving objects (plates)
 		for (int i = 0; i < 25; i++) {
 			state = new MovingImageObject();
-			moving.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * height / 2), "/plate.png",
+			moving.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * height / 2), "/purpledice.png",
 					state));
 		}
 	}
@@ -169,9 +169,9 @@ public class Circus implements World {
 		}
 		boolean timeout = System.currentTimeMillis() - startTime > MAX_TIME; // time end and game over
 
-		System.out.print(System.currentTimeMillis() +" " );
-		System.out.print(startTime+" ");
-		System.out.println(MAX_TIME);
+		//System.out.print(System.currentTimeMillis() +" " );
+		//System.out.print(startTime+" ");
+		//System.out.println(MAX_TIME);
 
 		// last plate in both stacks0
 		GameObject lastplateL = controlL.get(controlL.size() - 1);
@@ -185,6 +185,9 @@ public class Circus implements World {
 				// reuse the plate in another position
 				o.setY(-1 * (int) (Math.random() * getHeight()));
 				o.setX((int) (Math.random() * getWidth()));
+				//State state = new MovingImageObject();
+				//moving.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * height / 2), "/plate.png",
+					//	state));
 			}
 			// o.setX(o.getX() + (Math.random() > 0.5 ? 2 : -2));
 			// al taba2 b3dha l taba2 ele fo2
@@ -219,6 +222,16 @@ public class Circus implements World {
 				// this.notifyAllObserver();
 			}
 		}
+		//itrator
+				for(int counter = 0;counter<controlL.size();counter++) {
+					GameObject o = controlL.get(counter);
+					o.setX(Math.min(o.getX(), 1125));
+				}
+				for(int counter = 0;counter<controlR.size();counter++) {
+					GameObject o = controlR.get(counter);
+					o.setX(Math.max(o.getX(), 137));
+				}
+				
 
 		return !timeout;
 

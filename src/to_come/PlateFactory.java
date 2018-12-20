@@ -11,15 +11,17 @@ public class PlateFactory {
 
     private static final HashMap PlateMap = new HashMap();
 
-    public static Plate getPlate(String size, int weidth, int height, State state,String color) {
+    public  Plate getPlate(String size, int weidth, int height, State state,String color) {
 
-        Plate plate = (Plate)PlateMap.get(size);
+        IPlate plate = (Plate)PlateMap.get(size);
         if(plate == null) {
             plate = new RedPlate((int) (Math.random() * weidth), (int) (Math.random() * height / 2),
                     "/"+color+"plate"+size+".png", state);
             PlateMap.put(size, plate);
+        }else {
+        	
         }
-        return plate;
+        return (Plate) plate;
     }
 
 }

@@ -1,5 +1,7 @@
 
 import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -41,7 +43,8 @@ public class Main {
         });
         menu.add(exitMenuItem);
         menuBar.add(menu);
-        GameEngine.start("Very Simple Game in 99 Line of Code", new Circus(780, 600, new easy()), menuBar, Color.BLACK);
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        GameEngine.start("Very Simple Game in 99 Line of Code", new Circus((int)screenSize.getWidth(), (int)screenSize.getHeight()-75, new easy()), menuBar, Color.BLACK);
 
         /* -------------------------------------------------------------------- */
         /* allow pause, resume, and restart multiple worlds in the same frame */
