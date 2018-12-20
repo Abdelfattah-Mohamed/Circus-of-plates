@@ -12,7 +12,7 @@ public class Sound extends Observer{
 	}
 
 	@Override
-	public void update() {
+	public void update(int num) {
 		// TODO this must be called from strategy
 		// update sound here.
 	}

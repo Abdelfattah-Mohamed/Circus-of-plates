@@ -14,7 +14,7 @@ public class Score extends Observer {
 	}
 
 	@Override
-	public void update() {
+	public void update(int num) {
 		// TODO this must be called from strategy
 		game.setScore(game.getScore() + strategy.score());
 	}

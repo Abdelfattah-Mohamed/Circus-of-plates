@@ -7,8 +7,10 @@ import javax.imageio.ImageIO;
 
 public class Plate  implements IShape{
 	
-	BufferedImage bi;
+	private BufferedImage bi;
+	private String color;
 	public Plate(String color) {
+		this.color=color;
 		try {
 			bi =ImageIO.read(getClass().getResourceAsStream("/"+color+"plate.png"));
 		} catch (IOException e) {
@@ -21,6 +23,11 @@ public class Plate  implements IShape{
 	public BufferedImage getImage() {
 		
 		return bi;
+	}
+
+	@Override
+	public String getColor() {
+		return color;
 	}
 
 

@@ -17,10 +17,11 @@ public class plateServer extends Observer{
         game.attach(this);
     }
     @Override
-    public void update() {
-        if(game.getControlL().size() == 4){
+    public void update(int num) {
+    	
+        if(num==1){
             operationL();
-        }else if(game.getControlR().size() == 4) {
+        }else if(num==2) {
             operationR();
         }
     }

@@ -16,7 +16,7 @@ public  class ImageObject implements GameObject{
 	//private int y;
 	private boolean visible;
 	private int type;
-	private IShape image;
+	private String color;
 	/*public ImageObject(int posX, int posY, String path , State state){
 		this(posX, posY, path, 0,state);
 //		
@@ -46,7 +46,7 @@ public  class ImageObject implements GameObject{
 		this.type = type;
 		this.visible = true;
 		// create a bunch of buffered images and place into an array, to be displayed sequentially
-			
+			color =  image.getColor();
 			spriteImages[0] = image.getImage();
 		
 	}
@@ -110,6 +110,10 @@ public  class ImageObject implements GameObject{
 		state.setX(this.state.getX() );
 		state.setY(this.state.getY() );
 		this.state = state;
+	}
+	
+	public String getColor() {
+		return color;
 	}
 	
 }

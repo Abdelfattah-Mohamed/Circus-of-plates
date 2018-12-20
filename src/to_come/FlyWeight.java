@@ -21,7 +21,7 @@ public class FlyWeight {
     	for(int i=0; i < 25; ++i) {
         	//hn3del hna lw hn5ly al etnin random
     		State state = new MovingImageObject();
-    		shapes.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * height / 2),getRandomshape(),
+    		shapes.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * height ),getRandomshape(),
 					0,state));
     		
     		

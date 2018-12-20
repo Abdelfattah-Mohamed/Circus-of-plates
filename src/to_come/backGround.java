@@ -8,9 +8,9 @@ import javax.imageio.ImageIO;
 public class backGround implements IShape{
 	
 	BufferedImage bi;
-
+	String color;
 	public backGround(String color) {
-		
+		this.color=color;
 		try {
 			 bi =ImageIO.read(getClass().getResourceAsStream("/"+color+"background.jpg"));
 		} catch (IOException e) {
@@ -23,6 +23,11 @@ public class backGround implements IShape{
 	public BufferedImage getImage() {
 
 		return bi;
+	}
+
+	@Override
+	public String getColor() {
+		return color;
 	}
 
 }

@@ -10,9 +10,9 @@ import javax.imageio.ImageIO;
 public class Clown implements IShape {
 
 	BufferedImage bi;
-
+	String color;
 	public Clown(String color) {
-		
+		this.color=color;
 		try {
 			 bi =ImageIO.read(getClass().getResourceAsStream("/"+color+"clown.png"));
 		} catch (IOException e) {
@@ -25,5 +25,11 @@ public class Clown implements IShape {
 	public BufferedImage getImage() {
 
 		return bi;
+	}
+
+	@Override
+	public String getColor() {
+		// TODO Auto-generated method stub
+		return color;
 	}
 }

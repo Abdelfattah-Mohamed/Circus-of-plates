@@ -19,6 +19,7 @@ import to_come.Plate;
 import to_come.State;
 import to_come.backGround;
 
+import java.awt.image.BufferedImage;
 import java.util.*;
 
 public class Circus implements World {
@@ -202,13 +203,34 @@ public class Circus implements World {
 				State state = new ControlledImageObject(o.getX(), o.getY());
 				o.setState(state);
 				control.add(o);
-
 				controlL.add(o);
 				saveStateL();
-				countL++;
-				if (countL % 3 == 0) {
-					this.notifyAllObserver();
+				//ImageObject obj = (ImageObject) lastplateL;
+				//obj = (ImageObject) controlL.get(controlL.size()-2);
+				String color1 = o.getColor();
+				String color2 = ((ImageObject)lastplateL).getColor();
+				if(controlL.size()>3) {
+				String color3 = ((ImageObject)controlL.get(controlL.size()-3)).getColor();
+				
+				if(color1.equals(color2) && color2.equals(color3)) {
+					this.notifyAllObserver(1);
 				}
+				}
+						
+				/*if(color1.equals(color2)) {
+					System.out.println(true);
+					countL++;
+				}else {
+					if(color3.equals(color2)) {
+						countL=1;
+					}else {
+					countL=0;
+					}
+				}
+
+				if (countL == 2 ) {
+					this.notifyAllObserver();
+				}*/
 
 
 			}
@@ -220,10 +242,26 @@ public class Circus implements World {
 				control.add(o);
 				controlR.add(o);
 				saveStateR();
-				countR++;
-				if (countR % 3 == 0) {
-					this.notifyAllObserver();
+				String color1 = o.getColor();
+				String color2 = ((ImageObject)lastplateR).getColor();
+				if(controlR.size()>3) {
+				String color3 = ((ImageObject)controlR.get(controlR.size()-3)).getColor();
+				if(color1.equals(color2) && color2.equals(color3)) {
+					this.notifyAllObserver(2);
 				}
+				}
+				/*if(color1.equals(color2)) {
+					countR++;
+				}else {
+					if(color3.equals(color2)) {
+						countR=1;
+					}else {
+					countR=0;
+					}
+				}
+				if (countR ==2) {
+					this.notifyAllObserver();
+				}*/
 
 				// this.notifyAllObserver();
 			}
@@ -231,11 +269,11 @@ public class Circus implements World {
 		//itrator
 				for(int counter = 0;counter<controlL.size();counter++) {
 					GameObject o = controlL.get(counter);
-					o.setX(Math.min(o.getX(), 1125));
+					o.setX(Math.min(o.getX(), 1135));
 				}
 				for(int counter = 0;counter<controlR.size();counter++) {
 					GameObject o = controlR.get(counter);
-					o.setX(Math.max(o.getX(), 137));
+					o.setX(Math.max(o.getX(), 157));
 				}
 				
 
@@ -251,7 +289,7 @@ public class Circus implements World {
 		// System.out.println(o1.getWidth());
 		/* && o1.getY() + o1.getHeight() <= o2.getY()+2 */
 		if (o1.getY() + o1.getHeight() == o2.getY() && (midx <= o2.getX() + o2.getWidth() && midx >= o2.getX())) {
-			System.out.println("true");
+			//System.out.println("true");
 			return true;
 		}
 
@@ -289,9 +327,9 @@ public class Circus implements World {
 		return this.score;
 	}
 
-	public void notifyAllObserver() {
+	public void notifyAllObserver(int num) {
 		for (Observer observer : observers) {
-			observer.update();
+			observer.update(num);
 		}
 	}
 

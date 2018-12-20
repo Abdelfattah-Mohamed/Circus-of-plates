@@ -14,7 +14,7 @@ public class Time extends Observer {
 	}
 
 	@Override
-	public void update() {
+	public void update(int num) {
 		// TODO this must be called from strategy
 		game.setTime(game.getTime() + strategy.time());
 	}
