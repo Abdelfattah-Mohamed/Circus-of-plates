@@ -200,7 +200,7 @@ public class Circus implements World {
 			// al taba2 b3dha l taba2 ele fo2
 			if (!timeout & o.isVisible() && (intersect(o, lastplateL))) {
 				moving.remove(o);
-				State state = new ControlledImageObject(o.getX(), o.getY());
+				State state = new ControlledImageObject(o.getX(), o.getY()+5);
 				o.setState(state);
 				control.add(o);
 				controlL.add(o);
@@ -237,7 +237,7 @@ public class Circus implements World {
 			if (!timeout & o.isVisible() && (intersect(o, lastplateR))) {
 				// clown caught a plate here on the right side
 				moving.remove(o);
-				State state = new ControlledImageObject(o.getX(), o.getY());
+				State state = new ControlledImageObject(o.getX(), o.getY()+5);
 				((ImageObject) o).setState(state);
 				control.add(o);
 				controlR.add(o);
@@ -269,7 +269,7 @@ public class Circus implements World {
 		//itrator
 				for(int counter = 0;counter<controlL.size();counter++) {
 					GameObject o = controlL.get(counter);
-					o.setX(Math.min(o.getX(), 1135));
+					o.setX(Math.min(o.getX(), 1065));
 				}
 				for(int counter = 0;counter<controlR.size();counter++) {
 					GameObject o = controlR.get(counter);
