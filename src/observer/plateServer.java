@@ -18,24 +18,35 @@ public class plateServer extends Observer{
     }
     @Override
     public void update() {
-        //game.setControlL();
-        //game.setControlR();
+        if(game.getControlL().size() == 4){
+            operationL();
+        }else if(game.getControlR().size() == 4) {
+            operationR();
+        }
     }
 
-    private void saveL(){
-        if (currentMementoL >= 1) {
-            currentMementoL -= 3;
+    private void operationL(){
+        if (game.getCurrentMementoL() >= 1) {
+            game.setCurrentMementoL(game.getCurrentMementoL() - 3);
             for (int k = 0; k < 3; k++) {
                 ImageObject s = (ImageObject) game.getControlL().get(game.getControlL().size() - k - 1);
                 s.setVisible(false);
             }
-            game.setControlL((ArrayList<GameObject>) originator
-                    .restoreFromMemento(caretaker.getMementoL(currentMementoL - 1)).clone());
+            game.setControlL((ArrayList<GameObject>) game.getOriginator()
+                    .restoreFromMemento(game.getCaretaker().getMementoL(game.getCurrentMementoL() - 1)).clone());
         }
     }
 
-    private void saveR(){
-
+    private void operationR(){
+        if (game.getCurrentMementoR() >= 1) {
+            game.setCurrentMementoR(game.getCurrentMementoR() - 3);
+            for (int k = 0; k < 3; k++) {
+                ImageObject s = (ImageObject) game.getControlR().get(game.getControlR().size() - k - 1);
+                s.setVisible(false);
+            }
+            game.setControlR((ArrayList<GameObject>) game.getOriginator()
+                    .restoreFromMemento(game.getCaretaker().getMementoR(game.getCurrentMementoR() - 1)).clone());
+        }
     }
 
 

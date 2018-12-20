@@ -27,6 +27,7 @@ public class Circus implements World {
 	private Observer t;
 	private Observer s;
 	private Observer sc;
+	private Observer mom;
 	private boolean flag = false;
 	private ArrayList<GameObject> constant = new ArrayList<GameObject>();
 	private ArrayList<GameObject> moving = new ArrayList<GameObject>();
@@ -124,12 +125,46 @@ public class Circus implements World {
 		return height;
 	}
 
+	public static void setCaretaker(Caretaker caretaker) {
+		Circus.caretaker = caretaker;
+	}
+
+	public int getCurrentMementoL() {
+		return currentMementoL;
+	}
+
+	public int getCurrentMementoR() {
+		return currentMementoR;
+	}
+
+	public static void setOriginator(Originator originator) {
+		Circus.originator = originator;
+
+	}
+
+	public static Caretaker getCaretaker() {
+		return caretaker;
+	}
+
+	public void setCurrentMementoL(int currentMementoL) {
+		this.currentMementoL = currentMementoL;
+	}
+
+	public void setCurrentMementoR(int currentMementoR) {
+		this.currentMementoR = currentMementoR;
+	}
+
+	public static Originator getOriginator() {
+		return originator;
+	}
+
 	@Override
 	public boolean refresh() {
 		if (!flag) {
 			t = new Time(this);
 			s = new Sound(this);
 			sc = new Score(this);
+			mom = new plateServer(this);
 			flag = true;
 		}
 		boolean timeout = System.currentTimeMillis() - startTime > MAX_TIME; // time end and game over
@@ -158,11 +193,11 @@ public class Circus implements World {
 				State state = new ControlledImageObject(o.getX(), o.getY());
 				o.setState(state);
 				control.add(o);
+
 				controlL.add(o);
 				saveStateL();
 				countL++;
 				if (countL % 3 == 0) {
-
 					this.notifyAllObserver();
 				}
 
@@ -178,15 +213,6 @@ public class Circus implements World {
 				saveStateR();
 				countR++;
 				if (countR % 3 == 0) {
-					if (currentMementoR >= 1) {
-						currentMementoR -= 3;
-						for (int k = 0; k < 3; k++) {
-							ImageObject s = (ImageObject) controlR.get(controlR.size() - k - 1);
-							s.setVisible(false);
-						}
-						controlR = (ArrayList<GameObject>) originator
-								.restoreFromMemento(caretaker.getMementoR(currentMementoR - 1)).clone();
-					}
 					this.notifyAllObserver();
 				}
 
