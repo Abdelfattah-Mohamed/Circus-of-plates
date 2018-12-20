@@ -162,15 +162,7 @@ public class Circus implements World {
 				saveStateL();
 				countL++;
 				if (countL % 3 == 0) {
-					if (currentMementoL >= 1) {
-						currentMementoL -= 3;
-						for (int k = 0; k < 3; k++) {
-							ImageObject s = (ImageObject) controlL.get(controlL.size() - k - 1);
-							s.setVisible(false);
-						}
-						controlL = (ArrayList<GameObject>) originator
-								.restoreFromMemento(caretaker.getMementoL(currentMementoL - 1)).clone();
-					}
+
 					this.notifyAllObserver();
 				}
 
