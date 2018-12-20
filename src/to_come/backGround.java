@@ -5,27 +5,24 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-public class Plate  implements IShape{
+public class backGround implements IShape{
 	
 	BufferedImage bi;
-	public Plate(String color) {
+
+	public backGround(String color) {
+		
 		try {
-			bi =ImageIO.read(getClass().getResourceAsStream("/"+color+"plate.png"));
+			 bi =ImageIO.read(getClass().getResourceAsStream("/"+color+"background.jpg"));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}
 
 	@Override
 	public BufferedImage getImage() {
-		
+
 		return bi;
 	}
-
-
-    
-
-	
 
 }

@@ -16,29 +16,39 @@ public  class ImageObject implements GameObject{
 	//private int y;
 	private boolean visible;
 	private int type;
-	
-	public ImageObject(int posX, int posY, String path , State state){
+	private IShape image;
+	/*public ImageObject(int posX, int posY, String path , State state){
 		this(posX, posY, path, 0,state);
-//		try {
-//			spriteImages[1] = ImageIO.read(getClass().getResourceAsStream("/plate.png"));
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-	}
+//		
+	}*/
 	
-	public ImageObject(int posX, int posY, String path, int type , State state){
+	/*public ImageObject(int posX, int posY, String path, int type , State state){
 		this.state = state;
 		this.state.setX(posX) ;
 		this.state.setY(posY) ;
 		this.type = type;
 		this.visible = true;
 		// create a bunch of buffered images and place into an array, to be displayed sequentially
+		
 		try {
-			spriteImages[0] = ImageIO.read(getClass().getResourceAsStream(path));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+	spriteImages[0] = ImageIO.read(getClass().getResourceAsStream(path));
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+		
+	}*/
+	
+	public ImageObject(int posX, int posY, IShape image, int type , State state){
+		this.state = state;
+		this.state.setX(posX) ;
+		this.state.setY(posY) ;
+		this.type = type;
+		this.visible = true;
+		// create a bunch of buffered images and place into an array, to be displayed sequentially
+			
+			spriteImages[0] = image.getImage();
+		
 	}
 
 	@Override

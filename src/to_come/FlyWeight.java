@@ -6,29 +6,52 @@ import eg.edu.alexu.csd.oop.game.GameObject;
 
 public class FlyWeight {
 
-    ArrayList<String> sizes=new ArrayList<String>();
-    ArrayList<GameObject> newMoving=new ArrayList<GameObject>();
-    FlyWeight( ){
+    //ArrayList<String> sizes=new ArrayList<String>();
+    ArrayList<GameObject> shapes=new ArrayList<GameObject>();
+   public FlyWeight( ){
     	
-        sizes.add("m");
-        sizes.add("l");
-        sizes.add("xl");
+       // sizes.add("cup");
+       // sizes.add("dice");
+        //sizes.add("plate");
         
     }
     
-    public ArrayList<GameObject> createPlates(int weidth, int height, State state) {
-    	PlateFactory  pf = new PlateFactory();
-    	for(int i=0; i < 7; ++i) {
+    public ArrayList<GameObject> createPlates(int width, int height) {
+    	
+    	for(int i=0; i < 25; ++i) {
         	//hn3del hna lw hn5ly al etnin random
-    		newMoving.add(pf.getPlate(getRandomSize(),weidth,height,state,"red"));
-    		newMoving.add(pf.getPlate(getRandomSize(),weidth,height,state,"blue"));
-    		newMoving.add(pf.getPlate(getRandomSize(),weidth,height,state,"green"));
+    		State state = new MovingImageObject();
+    		shapes.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * height / 2),getRandomshape(),
+					0,state));
+    		
+    		
         }
-		return newMoving;
+		return shapes;
     }
 
-    private String getRandomSize() {
-        return sizes.get((int)(Math.random()*sizes.size()));
+    private IShape getRandomshape() {
+    	//factory
+    	IShape shape;
+    	String color;
+    	int num1 = (1+(int)(Math.random()*3));
+    	int num2 = (1+(int)(Math.random()*3));
+    	if(num2==1) {
+    		color="red";
+        }else if(num2==2) {
+        	color="blue";
+        }else {
+        	color="purple";
+        }
+    	
+    	
+         if(num1==1) {
+        	 shape= new Plate(color);
+         }else if(num1==2) {
+        	 shape= new Cup(color);
+         }else {
+        	 shape= new Dice(color);
+         }
+         return shape;
     }
 
 }

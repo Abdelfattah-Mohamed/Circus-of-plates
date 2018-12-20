@@ -3,15 +3,27 @@ package to_come;
 import eg.edu.alexu.csd.oop.game.GameObject;
 
 import java.awt.image.BufferedImage;
+import java.io.IOException;
 
-public class Clown extends ImageObject {
+import javax.imageio.ImageIO;
 
+public class Clown implements IShape {
 
-    public Clown(int posX, int posY, String path, State state) {
-        super(posX, posY, path, state);
-    }
+	BufferedImage bi;
 
-    public Clown(int posX, int posY, String path, int type, State state) {
-        super(posX, posY, path, type, state);
-    }
+	public Clown(String color) {
+		
+		try {
+			 bi =ImageIO.read(getClass().getResourceAsStream("/"+color+"clown.png"));
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public BufferedImage getImage() {
+
+		return bi;
+	}
 }

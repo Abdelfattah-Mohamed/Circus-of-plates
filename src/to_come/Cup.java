@@ -5,14 +5,16 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-public class Plate  implements IShape{
-	
+public class Cup implements IShape {
+
+    
+
 	BufferedImage bi;
-	public Plate(String color) {
+	public Cup(String color) {
 		try {
-			bi =ImageIO.read(getClass().getResourceAsStream("/"+color+"plate.png"));
+			 bi =ImageIO.read(getClass().getResourceAsStream("/"+color+"cup.png"));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}
@@ -22,10 +24,4 @@ public class Plate  implements IShape{
 		
 		return bi;
 	}
-
-
-    
-
-	
-
 }

@@ -8,11 +8,16 @@ import observer.Observer;
 import strategy_difficulty.Strategy;
 import iterator.Iterator;
 import iterator.Iterator_concrete;
+import to_come.Clown;
 import to_come.ConstantImageObject;
 import to_come.ControlledImageObject;
+import to_come.FlyWeight;
+import to_come.IShape;
 import to_come.ImageObject;
 import to_come.MovingImageObject;
+import to_come.Plate;
 import to_come.State;
+import to_come.backGround;
 
 import java.util.*;
 
@@ -48,16 +53,20 @@ public class Circus implements World {
 		this.height = height;
 		this.difficulty = difficulty;
 		State state;
+		IShape shape;
 		state = new ConstantImageObject();
-		ImageObject bg = new ImageObject(0, 0, "/aaa.jpg", state);
+		shape = new backGround("0");
+		ImageObject bg = new ImageObject(0, 0, shape,0, state);
 		constant.add(bg);
+		shape=new Clown("0");
 		state = new ControlledImageObject(width / 3, (int) (height * 0.6));
-		ImageObject clown = new ImageObject(width / 3, (int) (height * 0.6), "/clown.png", state);
+		ImageObject clown = new ImageObject(width / 3, (int) (height * 0.6),shape,0 , state);
+		shape = new Plate("0");
 		state = new ControlledImageObject(clown.getX() - 17, clown.getY() + 37);
-		ImageObject dummyL = new ImageObject(clown.getX() - 17, clown.getY() + 37, "/plate.png", state);
+		ImageObject dummyL = new ImageObject(clown.getX() - 17, clown.getY() + 37, shape,0, state);
 		dummyL.setVisible(false);
 		state = new ControlledImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40);
-		ImageObject dummyR = new ImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40, "/plate.png",
+		ImageObject dummyR = new ImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40, shape,0,
 				state);
 		dummyR.setVisible(false);
 		control.add(clown);
@@ -72,11 +81,8 @@ public class Circus implements World {
 		// play some music
 		addition_classes.Sound.getInstance().startCircusSound();
 		// moving objects (plates)
-		for (int i = 0; i < 25; i++) {
-			state = new MovingImageObject();
-			moving.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * height / 2), "/purpledice.png",
-					state));
-		}
+		FlyWeight fw = new FlyWeight();
+		moving = fw.createPlates(width, height);
 	}
 
 	@Override
