@@ -45,7 +45,6 @@ public class Circus implements World {
 	private List<Observer> observers = new ArrayList<Observer>();
 	private static Caretaker caretaker = new Caretaker();
 	private static Originator originator = new Originator();
-	private Iterator_concrete xx;
 	private int currentMementoL = 0;
 	private int currentMementoR = 0;
 	//private int countL = 0;
@@ -209,6 +208,7 @@ public class Circus implements World {
 		// last plate in both stacks0
 		GameObject lastplateL = controlL.get(controlL.size() - 1);
 		GameObject lastplateR = controlR.get(controlR.size() - 1);
+		Iterator_concrete xx;
 		xx = new Iterator_concrete(moving); // handle moving plates here
 
 		for (Iterator iter = xx.getIterator(0); iter.hasNext();) {
@@ -297,14 +297,20 @@ public class Circus implements World {
 				
 		}
 		// itrator
-		for (int counter = 0; counter < controlL.size(); counter++) {
-			GameObject o = controlL.get(counter);
+		
+		Iterator_concrete itr2 ;
+		itr2 = new Iterator_concrete(controlL);
+		for(Iterator iter = itr2.getIterator(0); iter.hasNext();){
+			GameObject o = (GameObject) iter.next();
 			o.setX((int) Math.min(o.getX(), scrwidth));
 		}
-		for (int counter = 0; counter < controlR.size(); counter++) {
-			GameObject o = controlR.get(counter);
+		Iterator_concrete itr3 ;
+		itr3 = new Iterator_concrete(controlR);
+		for(Iterator iter = itr3.getIterator(0); iter.hasNext();){
+			GameObject o = (GameObject) iter.next();
 			o.setX(Math.max(o.getX(), 157));
 		}
+		
 
 		return !timeout;
 
