@@ -45,9 +45,10 @@ public class Circus implements World {
 	private Iterator_concrete xx;
 	private int currentMementoL = 0;
 	private int currentMementoR = 0;
-	int countL = 0;
-	int countR = 0;
-
+	//private int countL = 0;
+	//private int countR = 0;
+	private ImageObject dummyL;
+	private ImageObject dummyR;
 	public Circus(int width, int height, Strategy difficulty) {
 		this.width = width;
 		this.height = height;
@@ -84,11 +85,11 @@ public class Circus implements World {
 			e.printStackTrace();
 		}
 		state = new ControlledImageObject(clown.getX() - 17, clown.getY() + 37);
-		ImageObject dummyL = new ImageObject(clown.getX() - 17, clown.getY() + 37, shape, 0, state);
-		dummyL.setVisible(false);
+		 dummyL = new ImageObject(clown.getX() - 17, clown.getY() + 37, shape, 0, state);
+		//dummyL.setVisible(false);
 		state = new ControlledImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40);
-		ImageObject dummyR = new ImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40, shape, 0, state);
-		dummyR.setVisible(false);
+		 dummyR = new ImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40, shape, 0, state);
+		//dummyR.setVisible(false);
 		control.add(clown);
 		control.add(dummyL);
 		control.add(dummyR);
@@ -219,6 +220,8 @@ public class Circus implements World {
 			// o.setX(o.getX() + (Math.random() > 0.5 ? 2 : -2));
 			// al taba2 b3dha l taba2 ele fo2
 			if (!timeout & o.isVisible() && (intersect(o, lastplateL))) {
+				int midx = (o.getX()+o.getX()+o.getWidth())/2;
+				if(midx <= dummyL.getX()+dummyL.getWidth() && midx >= dummyL.getX() ){
 				moving.remove(o);
 				State state = new ControlledImageObject(o.getX(), o.getY() + 5);
 				o.setState(state);
@@ -244,9 +247,19 @@ public class Circus implements World {
 				 * if (countL == 2 ) { this.notifyAllObserver(); }
 				 */
 
+			}else {
+				control.remove(lastplateL);
+				controlL.remove(lastplateL);
+				State state = new MovingImageObject();
+				((ImageObject)lastplateL).setState(state);
+				moving.add(lastplateL);
+				//remove state l
+			}
 			}
 			if (!timeout & o.isVisible() && (intersect(o, lastplateR))) {
 				// clown caught a plate here on the right side
+				int midx = (o.getX()+o.getX()+o.getWidth())/2;
+				if(midx <= dummyR.getX()+dummyR.getWidth() && midx >= dummyR.getX() ){
 				moving.remove(o);
 				State state = new ControlledImageObject(o.getX(), o.getY() + 5);
 				((ImageObject) o).setState(state);
@@ -261,6 +274,13 @@ public class Circus implements World {
 						this.notifyAllObserver(2);
 					}
 				}
+				}else {
+					control.remove(lastplateR);
+					controlR.remove(lastplateR);
+					State state = new MovingImageObject();
+					((ImageObject)lastplateR).setState(state);
+					moving.add(lastplateR);
+				}
 				/*
 				 * if(color1.equals(color2)) { countR++; }else { if(color3.equals(color2)) {
 				 * countR=1; }else { countR=0; } } if (countR ==2) { this.notifyAllObserver(); }
@@ -268,6 +288,7 @@ public class Circus implements World {
 
 				// this.notifyAllObserver();
 			}
+				
 		}
 		// itrator
 		for (int counter = 0; counter < controlL.size(); counter++) {
