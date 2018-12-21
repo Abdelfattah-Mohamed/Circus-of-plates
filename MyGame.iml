@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="file://D:\circus\res" />
-    <libelement value="file://D:/University/OOPP/game/lib/engine_v3.jar" />
+    <libelement value="file://D:/University/OOPP/circus/engine_v3.jar" />
     <src_description expected_position="1">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="1" />
     </src_description>
@@ -16,18 +15,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="res">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/res" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="engine_v3.jar">
         <CLASSES>
-          <root url="file://D:/University/OOPP/game/lib/engine_v3.jar" />
+          <root url="file://D:/University/OOPP/circus/engine_v3.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

@@ -2,6 +2,7 @@ package to_come;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
@@ -12,19 +13,16 @@ public class FlyWeight {
 	// ArrayList<String> sizes=new ArrayList<String>();
 	ArrayList<GameObject> shapes = new ArrayList<GameObject>();
 	List<Class<?>> listofClasses;
+	private static final HashMap classMap = new HashMap();
 
 	public FlyWeight() {
 		jarread x = new jarread();
 		this.listofClasses = x.getCrunchifyClassNamesFromJar("JAR_F.jar");
-		// sizes.add("cup");
-		// sizes.add("dice");
-		// sizes.add("plate");
-
 	}
 
 	public ArrayList<GameObject> createPlates(int width, int height) {
 
-		for (int i = 0; i < 50; ++i) {
+		for (int i = 0; i < 60; ++i) {
 			// hn3del hna lw hn5ly al etnin random
 			State state = new MovingImageObject();
 			shapes.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * height), getRandomshape(),
@@ -49,29 +47,38 @@ public class FlyWeight {
 		}
 
 		if (num1 == 1) {
-			try {
-				shape = (IShape) listofClasses.get(1).getConstructor(String.class).newInstance(color);
-			} catch (InstantiationException | IllegalAccessException | IllegalArgumentException
-					| InvocationTargetException | NoSuchMethodException | SecurityException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			if(classMap.get(color+"Plate")==null){
+				try {
+					classMap.put(color+"Plate", listofClasses.get(1).getConstructor(String.class).newInstance(color));
+					shape = (IShape) listofClasses.get(1).getConstructor(String.class).newInstance(color);
+				} catch (InstantiationException | IllegalAccessException | IllegalArgumentException
+						| InvocationTargetException | NoSuchMethodException | SecurityException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}else{shape = (IShape) classMap.get(color+"Plate"); }
 		} else if (num1 == 2) {
-			try {
-				shape = (IShape) listofClasses.get(0).getConstructor(String.class).newInstance(color);
-			} catch (InstantiationException | IllegalAccessException | IllegalArgumentException
-					| InvocationTargetException | NoSuchMethodException | SecurityException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			if(classMap.get(color+"Cup")==null) {
+				try {
+					classMap.put(color+"Cup", listofClasses.get(0).getConstructor(String.class).newInstance(color));
+					shape = (IShape) listofClasses.get(0).getConstructor(String.class).newInstance(color);
+				} catch (InstantiationException | IllegalAccessException | IllegalArgumentException
+						| InvocationTargetException | NoSuchMethodException | SecurityException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}else{shape = (IShape) classMap.get(color+"Cup"); }
 		} else {
-			try {
-				shape = (IShape) listofClasses.get(5).getConstructor(String.class).newInstance(color);
-			} catch (InstantiationException | IllegalAccessException | IllegalArgumentException
-					| InvocationTargetException | NoSuchMethodException | SecurityException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			if (classMap.get(color + "Dice") == null) {
+				try {
+					classMap.put(color+"Dice", listofClasses.get(5).getConstructor(String.class).newInstance(color));
+					shape = (IShape) listofClasses.get(5).getConstructor(String.class).newInstance(color);
+				} catch (InstantiationException | IllegalAccessException | IllegalArgumentException
+						| InvocationTargetException | NoSuchMethodException | SecurityException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}else{shape = (IShape) classMap.get(color+"Dice"); }
 		}
 		return shape;
 	}
