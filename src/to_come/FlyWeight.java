@@ -24,7 +24,7 @@ public class FlyWeight {
 
 	public ArrayList<GameObject> createPlates(int width, int height) {
 
-		for (int i = 0; i < 25; ++i) {
+		for (int i = 0; i < 50; ++i) {
 			// hn3del hna lw hn5ly al etnin random
 			State state = new MovingImageObject();
 			shapes.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * height), getRandomshape(),

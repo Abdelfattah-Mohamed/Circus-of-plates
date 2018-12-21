@@ -26,7 +26,7 @@ import java.util.*;
 
 public class Circus implements World {
 
-	private static int MAX_TIME = 1 * 60 * 1000; // 1 minute
+	private static int MAX_TIME = 1 * 60 * 1000 * 1000; // 1 minute
 	private int score = 0;
 	private long startTime = System.currentTimeMillis();
 	private final int width;
@@ -47,13 +47,14 @@ public class Circus implements World {
 	private static Originator originator = new Originator();
 	private int currentMementoL = 0;
 	private int currentMementoR = 0;
-	//private int countL = 0;
-	//private int countR = 0;
+	// private int countL = 0;
+	// private int countR = 0;
 	private ImageObject dummyL;
 	private ImageObject dummyR;
 	Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 	double scrwidth = screenSize.getWidth();
 	double scrheight = screenSize.getHeight();
+
 	public Circus(int width, int height, Strategy difficulty) {
 		this.width = width;
 		this.height = height;
@@ -90,11 +91,11 @@ public class Circus implements World {
 			e.printStackTrace();
 		}
 		state = new ControlledImageObject(clown.getX() - 17, clown.getY() + 37);
-		 dummyL = new ImageObject(clown.getX() - 17, clown.getY() + 37, shape, 0, state);
-		//dummyL.setVisible(false);
+		dummyL = new ImageObject(clown.getX() - 17, clown.getY() + 37, shape, 0, state);
+		// dummyL.setVisible(false);
 		state = new ControlledImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40);
-		 dummyR = new ImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40, shape, 0, state);
-		//dummyR.setVisible(false);
+		dummyR = new ImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40, shape, 0, state);
+		// dummyR.setVisible(false);
 		control.add(clown);
 		control.add(dummyL);
 		control.add(dummyR);
@@ -226,66 +227,69 @@ public class Circus implements World {
 			// o.setX(o.getX() + (Math.random() > 0.5 ? 2 : -2));
 			// al taba2 b3dha l taba2 ele fo2
 			if (!timeout & o.isVisible() && (intersect(o, lastplateL))) {
-				int midx = (o.getX()+o.getX()+o.getWidth())/2;
-				if(midx <= dummyL.getX()+dummyL.getWidth() && midx >= dummyL.getX() ){
-				moving.remove(o);
-				State state = new ControlledImageObject(o.getX(), o.getY() + 5);
-				o.setState(state);
-				control.add(o);
-				controlL.add(o);
-				saveStateL();
-				// ImageObject obj = (ImageObject) lastplateL;
-				// obj = (ImageObject) controlL.get(controlL.size()-2);
-				String color1 = o.getColor();
-				String color2 = ((ImageObject) lastplateL).getColor();
-				if (controlL.size() > 3) {
-					String color3 = ((ImageObject) controlL.get(controlL.size() - 3)).getColor();
+				int midx = (o.getX() + o.getX() + o.getWidth()) / 2;
+				if (midx <= dummyL.getX() + dummyL.getWidth() && midx >= dummyL.getX()) {
+					moving.remove(o);
+					State state = new ControlledImageObject(o.getX(), o.getY() + 5);
+					o.setState(state);
+					control.add(o);
+					controlL.add(o);
+					saveStateL();
+					// ImageObject obj = (ImageObject) lastplateL;
+					// obj = (ImageObject) controlL.get(controlL.size()-2);
+					String color1 = o.getColor();
+					String color2 = ((ImageObject) lastplateL).getColor();
+					if (controlL.size() > 3) {
+						String color3 = ((ImageObject) controlL.get(controlL.size() - 3)).getColor();
 
-					if (color1.equals(color2) && color2.equals(color3)) {
-						this.notifyAllObserver(1);
+						if (color1.equals(color2) && color2.equals(color3)) {
+							this.notifyAllObserver(1);
+						}
 					}
+
+					/*
+					 * if(color1.equals(color2)) { System.out.println(true); countL++; }else {
+					 * if(color3.equals(color2)) { countL=1; }else { countL=0; } }
+					 * 
+					 * if (countL == 2 ) { this.notifyAllObserver(); }
+					 */
+
+				} else {
+					control.remove(lastplateL);
+					controlL.remove(lastplateL);
+					State state = new MovingImageObject();
+					((ImageObject) lastplateL).setState(state);
+					moving.add(lastplateL);
+					caretaker.removeL();
+					this.setCurrentMementoL(this.getCurrentMementoL() - 1);
 				}
-
-				/*
-				 * if(color1.equals(color2)) { System.out.println(true); countL++; }else {
-				 * if(color3.equals(color2)) { countL=1; }else { countL=0; } }
-				 * 
-				 * if (countL == 2 ) { this.notifyAllObserver(); }
-				 */
-
-			}else {
-				control.remove(lastplateL);
-				controlL.remove(lastplateL);
-				State state = new MovingImageObject();
-				((ImageObject)lastplateL).setState(state);
-				moving.add(lastplateL);
-				//remove state l
-			}
 			}
 			if (!timeout & o.isVisible() && (intersect(o, lastplateR))) {
 				// clown caught a plate here on the right side
-				int midx = (o.getX()+o.getX()+o.getWidth())/2;
-				if(midx <= dummyR.getX()+dummyR.getWidth() && midx >= dummyR.getX() ){
-				moving.remove(o);
-				State state = new ControlledImageObject(o.getX(), o.getY() + 5);
-				((ImageObject) o).setState(state);
-				control.add(o);
-				controlR.add(o);
-				saveStateR();
-				String color1 = o.getColor();
-				String color2 = ((ImageObject) lastplateR).getColor();
-				if (controlR.size() > 3) {
-					String color3 = ((ImageObject) controlR.get(controlR.size() - 3)).getColor();
-					if (color1.equals(color2) && color2.equals(color3)) {
-						this.notifyAllObserver(2);
+				int midx = (o.getX() + o.getX() + o.getWidth()) / 2;
+				if (midx <= dummyR.getX() + dummyR.getWidth() && midx >= dummyR.getX()) {
+					moving.remove(o);
+					State state = new ControlledImageObject(o.getX(), o.getY() + 5);
+					((ImageObject) o).setState(state);
+					control.add(o);
+					controlR.add(o);
+					saveStateR();
+					String color1 = o.getColor();
+					String color2 = ((ImageObject) lastplateR).getColor();
+					if (controlR.size() > 3) {
+						String color3 = ((ImageObject) controlR.get(controlR.size() - 3)).getColor();
+						if (color1.equals(color2) && color2.equals(color3)) {
+							this.notifyAllObserver(2);
+						}
 					}
-				}
-				}else {
+				} else {
 					control.remove(lastplateR);
 					controlR.remove(lastplateR);
 					State state = new MovingImageObject();
-					((ImageObject)lastplateR).setState(state);
+					((ImageObject) lastplateR).setState(state);
 					moving.add(lastplateR);
+					caretaker.removeR();
+					this.setCurrentMementoR(this.getCurrentMementoR() - 1);
 				}
 				/*
 				 * if(color1.equals(color2)) { countR++; }else { if(color3.equals(color2)) {
@@ -294,23 +298,22 @@ public class Circus implements World {
 
 				// this.notifyAllObserver();
 			}
-				
+
 		}
 		// itrator
-		
-		Iterator_concrete itr2 ;
+
+		Iterator_concrete itr2;
 		itr2 = new Iterator_concrete(controlL);
-		for(Iterator iter = itr2.getIterator(0); iter.hasNext();){
+		for (Iterator iter = itr2.getIterator(0); iter.hasNext();) {
 			GameObject o = (GameObject) iter.next();
 			o.setX((int) Math.min(o.getX(), scrwidth));
 		}
-		Iterator_concrete itr3 ;
+		Iterator_concrete itr3;
 		itr3 = new Iterator_concrete(controlR);
-		for(Iterator iter = itr3.getIterator(0); iter.hasNext();){
+		for (Iterator iter = itr3.getIterator(0); iter.hasNext();) {
 			GameObject o = (GameObject) iter.next();
 			o.setX(Math.max(o.getX(), 157));
 		}
-		
 
 		return !timeout;
 

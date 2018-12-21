@@ -8,8 +8,8 @@ public class Caretaker {
 
 	// Where all mementoes are saved
 
-	ArrayList<Memento> savedControlerL = new ArrayList<Memento>();
-	ArrayList<Memento> savedControlerR = new ArrayList<Memento>();
+	public ArrayList<Memento> savedControlerL = new ArrayList<Memento>();
+	public ArrayList<Memento> savedControlerR = new ArrayList<Memento>();
 
 	// Adds memento to the ArrayList
 
@@ -23,6 +23,10 @@ public class Caretaker {
 		return savedControlerL.get(index);
 	}
 
+	public Memento removeL() {
+		return savedControlerL.remove(savedControlerL.size() - 1);
+	}
+
 	// Adds memento to the ArrayList
 
 	public void addMementoR(Memento m) {
@@ -33,5 +37,9 @@ public class Caretaker {
 
 	public Memento getMementoR(int index) {
 		return savedControlerR.get(index);
+	}
+
+	public Memento removeR() {
+		return savedControlerR.remove(savedControlerR.size() - 1);
 	}
 }
