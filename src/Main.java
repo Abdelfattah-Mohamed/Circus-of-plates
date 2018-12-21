@@ -13,6 +13,7 @@ import world_class.Circus;
 public class Main {
 
     public static void main(String[] args) {
+
         /* using menus in the game */
         final Strategy[] strategy = {null};
         ScreenResolution resolution = new ScreenResolution();

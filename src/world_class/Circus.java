@@ -16,6 +16,9 @@ import to_come.IShape;
 import to_come.ImageObject;
 import to_come.MovingImageObject;
 import to_come.State;
+
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -49,6 +52,9 @@ public class Circus implements World {
 	//private int countR = 0;
 	private ImageObject dummyL;
 	private ImageObject dummyR;
+	Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+	double scrwidth = screenSize.getWidth();
+	double scrheight = screenSize.getHeight();
 	public Circus(int width, int height, Strategy difficulty) {
 		this.width = width;
 		this.height = height;
@@ -293,7 +299,7 @@ public class Circus implements World {
 		// itrator
 		for (int counter = 0; counter < controlL.size(); counter++) {
 			GameObject o = controlL.get(counter);
-			o.setX(Math.min(o.getX(), 1065));
+			o.setX((int) Math.min(o.getX(), scrwidth));
 		}
 		for (int counter = 0; counter < controlR.size(); counter++) {
 			GameObject o = controlR.get(counter);
