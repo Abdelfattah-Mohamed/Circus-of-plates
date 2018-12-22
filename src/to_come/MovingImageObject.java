@@ -2,24 +2,27 @@ package to_come;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
 
-public class MovingImageObject  implements State{
-	
+public class MovingImageObject implements State {
+
 	private int x;
 	private int y;
-	
-	
+
+	public MovingImageObject() {
+
+	}
+
 	
 
 	@Override
 	public void setX(int mX) {
 		this.x = mX;
-		
+
 	}
 
 	@Override
 	public void setY(int mY) {
 		this.y = mY;
-		
+
 	}
 
 	@Override

@@ -15,6 +15,7 @@ import to_come.FlyWeight;
 import to_come.IShape;
 import to_come.ImageObject;
 import to_come.MovingImageObject;
+import to_come.MovingPool;
 import to_come.State;
 
 import java.awt.Dimension;
@@ -106,10 +107,11 @@ public class Circus implements World {
 		saveStateL();
 		saveStateR();
 		// play some music
-		addition_classes.Sound.getInstance().startCircusSound();
+		//addition_classes.Sound.getInstance().startCircusSound();
 		// moving objects (plates)
-		FlyWeight fw = new FlyWeight();
-		moving = fw.createPlates(width, height);
+		MovingPool mpl = MovingPool.getInstance();
+		mpl.setPool(width, height);
+		moving = mpl.usePool();
 	}
 
 	@Override
@@ -193,6 +195,7 @@ public class Circus implements World {
 
 	@Override
 	public boolean refresh() {
+		System.out.println(moving.size());
 		if (!flag) {
 			t = new Time(this);
 			s = new Sound(this);
@@ -200,6 +203,16 @@ public class Circus implements World {
 			mom = new plateServer(this);
 			flag = true;
 		}
+		MovingPool mpl = MovingPool.getInstance();
+		if(mpl.hasElement()) {
+			State state = new MovingImageObject();
+			GameObject obj = mpl.useObj();
+			((ImageObject)obj).setState(state);
+			obj.setX((int) (Math.random() * width));
+			obj.setY((int) (Math.random() * height));
+			moving.add(obj);
+		}
+		
 		boolean timeout = System.currentTimeMillis() - startTime > MAX_TIME; // time end and game over
 
 		// System.out.print(System.currentTimeMillis() +" " );
@@ -306,7 +319,7 @@ public class Circus implements World {
 		itr2 = new Iterator_concrete(controlL);
 		for (Iterator iter = itr2.getIterator(0); iter.hasNext();) {
 			GameObject o = (GameObject) iter.next();
-			o.setX((int) Math.min(o.getX(), scrwidth));
+			o.setX((int) Math.min(o.getX(), scrwidth-310));
 		}
 		Iterator_concrete itr3;
 		itr3 = new Iterator_concrete(controlR);
@@ -391,5 +404,10 @@ public class Circus implements World {
 		originator.set((ArrayList<GameObject>) controlR.clone());
 		caretaker.addMementoR(originator.storeInMemento());
 		currentMementoR++;
+	}
+	
+	public ArrayList<GameObject> getControl() {
+		return control;
+		
 	}
 }
