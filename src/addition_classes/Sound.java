@@ -1,5 +1,7 @@
 package addition_classes;
 
+import Logger.GameLogger;
+
 import java.net.URL;
 
 import javax.sound.sampled.AudioInputStream;
@@ -25,6 +27,7 @@ public class Sound {
 			clipCircus = AudioSystem.getClip();
 			clipCircus.open(audioIn);
 			clipCircus.start();
+			GameLogger.getInstance().log.info("Music set to theme.wav");
 		} catch (Exception e) {
 		}
 	}

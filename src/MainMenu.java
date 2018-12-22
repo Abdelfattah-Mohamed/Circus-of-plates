@@ -1,3 +1,4 @@
+import Logger.GameLogger;
 import eg.edu.alexu.csd.oop.game.GameEngine;
 import strategy_difficulty.Strategy;
 import strategy_difficulty.easy;
@@ -31,7 +32,8 @@ public class MainMenu {
         e.addActionListener(new ActionListener() {
             @Override public void actionPerformed(ActionEvent e) {
                 strategy = new easy();
-                gameController[0] = GameEngine.start("Very Simple Game in 99 Line of Code", new Circus(resolution.getWidth(),resolution.getHeight(),strategy), menuBar, Color.BLACK);
+                GameLogger.getInstance().log.info("Game set to easy mode");
+                gameController[0] = GameEngine.start("HeadCup", new Circus(resolution.getWidth(),resolution.getHeight(),strategy), menuBar, Color.BLACK);
             }});
         Button m = new Button();
         m.setSize(100,100);
@@ -39,7 +41,8 @@ public class MainMenu {
         m.addActionListener(new ActionListener() {
             @Override public void actionPerformed(ActionEvent e) {
                 strategy = new normal();
-                gameController[0] = GameEngine.start("Very Simple Game in 99 Line of Code", new Circus(resolution.getWidth(),resolution.getHeight(), strategy), menuBar, Color.BLACK);
+                GameLogger.getInstance().log.info("Game set to normal mode");
+                gameController[0] = GameEngine.start("HeadCup", new Circus(resolution.getWidth(),resolution.getHeight(), strategy), menuBar, Color.BLACK);
             }});
         Button h = new Button();
         h.setSize(100,100);
@@ -47,7 +50,8 @@ public class MainMenu {
         h.addActionListener(new ActionListener() {
             @Override public void actionPerformed(ActionEvent e) {
                 strategy = new hard();
-                gameController[0] = GameEngine.start("Very Simple Game in 99 Line of Code", new Circus(resolution.getWidth(),resolution.getHeight(), strategy), menuBar, Color.BLACK);
+                GameLogger.getInstance().log.info("Game set to hard mode");
+                gameController[0] = GameEngine.start("HeadCup", new Circus(resolution.getWidth(),resolution.getHeight(), strategy), menuBar, Color.BLACK);
             }});
 
         JMenu menu = new JMenu("File");
@@ -63,15 +67,19 @@ public class MainMenu {
         JFrame frame = new JFrame();
         frame.setSize(300,100);
         frame.add(panel);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        GameLogger.getInstance().log.debug("Main Menu Generated Successfully!");
+
         JMenuItem  exitMenuItem = new JMenuItem("Exit");
         exitMenuItem.addActionListener(new ActionListener() {
             @Override public void actionPerformed(ActionEvent e) {
+                GameLogger.getInstance().log.info("Game Terminated");
                 System.exit(0);
             }
         });
-        menu.add(exitMenuItem);
         menu.add(newgame);
+        menu.add(exitMenuItem);
         menuBar.add(menu);
     }
 }

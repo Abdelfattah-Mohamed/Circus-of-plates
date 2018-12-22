@@ -1,3 +1,5 @@
+import Logger.GameLogger;
+
 import java.awt.*;
 
 public class ScreenResolution {
@@ -15,6 +17,7 @@ public class ScreenResolution {
 
     public void getScreenResolution(){
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        GameLogger.getInstance().log.debug("Screen Resolution is: " + width + "x" + height);
         height = screenSize.height - 100;
         width = screenSize.width - 100;
     }

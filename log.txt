@@ -1,0 +1,40 @@
+2018-12-22 10:05:15,196 DEBUG [main] - MainLog.getScreenResolution 20 - Screen Resolution is: 0x0
+2018-12-22 10:05:16,363 DEBUG [main] - MainLog.start 71 - Main Menu Generated Successfully!
+2018-12-22 10:06:22,985 DEBUG [main] - MainLog.getScreenResolution 20 - Screen Resolution is: 0x0
+2018-12-22 10:06:23,153 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-22 10:06:30,183 DEBUG [main] - MainLog.getScreenResolution 20 - Screen Resolution is: 0x0
+2018-12-22 10:06:30,357 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-22 10:06:40,266  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 44 - Game set to normal mode
+2018-12-22 10:06:41,105 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 15
+2018-12-22 10:06:48,890 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:06:48,890 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:07:06,260 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:07:06,260 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:07:16,231 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:07:16,232 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:07:22,974 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:07:22,974 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:07:36,528 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:07:36,528 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:07:41,511 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:07:41,511 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:07:43,701 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:07:43,701 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:07:55,447 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:07:55,448 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:08:02,966 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:08:02,967 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:08:13,303 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:08:13,303 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:08:20,417 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:08:20,417 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:08:28,450 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:08:28,450 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:08:38,326 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:08:38,326 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:08:47,401 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 2000
+2018-12-22 10:08:47,401 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 2
+2018-12-22 10:10:25,328 DEBUG [main] - MainLog.getScreenResolution 20 - Screen Resolution is: 0x0
+2018-12-22 10:10:25,517 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-22 10:10:30,697  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-22 10:10:31,169 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
