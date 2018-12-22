@@ -137,7 +137,7 @@ public class Facad {
         itr2 = new Iterator_concrete(game.getControlL());
         for (Iterator iter = itr2.getIterator(0); iter.hasNext();) {
             GameObject o = (GameObject) iter.next();
-            o.setX((int) Math.min(o.getX(), screenSize.getWidth()));
+            o.setX((int) Math.min(o.getX(), screenSize.getWidth()-310));
         }
         Iterator_concrete itr3;
         itr3 = new Iterator_concrete(game.getControlR());
