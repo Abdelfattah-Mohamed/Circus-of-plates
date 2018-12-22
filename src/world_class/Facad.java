@@ -8,11 +8,10 @@ import momento.Caretaker;
 import momento.Originator;
 import observer.*;
 import to_come.*;
-
 import java.awt.*;
 import java.util.ArrayList;
 
-public class Facad {
+public class Facad implements IFacad{
     private Observer t;
     private Observer s;
     private Observer sc;
@@ -137,7 +136,7 @@ public class Facad {
         itr2 = new Iterator_concrete(game.getControlL());
         for (Iterator iter = itr2.getIterator(0); iter.hasNext();) {
             GameObject o = (GameObject) iter.next();
-            o.setX((int) Math.min(o.getX(), screenSize.getWidth()-310));
+            o.setX((int) Math.min(o.getX(), screenSize.getWidth()));
         }
         Iterator_concrete itr3;
         itr3 = new Iterator_concrete(game.getControlR());

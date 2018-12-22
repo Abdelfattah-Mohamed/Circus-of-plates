@@ -32,7 +32,7 @@ public class Circus implements World {
 	private int currentMementoR = 0;
 	private ImageObject dummyL;
 	private ImageObject dummyR;
-	private Facad logic;
+	private IFacad logic;
 
 
 	public List<Observer> getObservers() {
@@ -236,7 +236,5 @@ public class Circus implements World {
 	public void setScore(int score) {
 		this.score = score;
 	}
-
-
 
 }
