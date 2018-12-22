@@ -75,3 +75,6 @@
 2018-12-22 20:07:13,459 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 3
 2018-12-22 20:07:32,809 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 3000
 2018-12-22 20:07:32,810 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 3
+2018-12-22 23:13:39,086 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-22 23:13:40,009  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-22 23:13:40,813 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
