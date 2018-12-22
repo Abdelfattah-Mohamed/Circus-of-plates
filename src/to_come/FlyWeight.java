@@ -49,8 +49,8 @@ public class FlyWeight {
 		if (num1 == 1) {
 			if(classMap.get(color+"Plate")==null){
 				try {
-					classMap.put(color+"Plate", listofClasses.get(1).getConstructor(String.class).newInstance(color));
-					shape = (IShape) listofClasses.get(1).getConstructor(String.class).newInstance(color);
+					classMap.put(color+"Plate", listofClasses.get(2).getConstructor(String.class).newInstance(color));
+					shape = (IShape) listofClasses.get(2).getConstructor(String.class).newInstance(color);
 				} catch (InstantiationException | IllegalAccessException | IllegalArgumentException
 						| InvocationTargetException | NoSuchMethodException | SecurityException e) {
 					// TODO Auto-generated catch block
@@ -71,8 +71,8 @@ public class FlyWeight {
 		} else {
 			if (classMap.get(color + "Dice") == null) {
 				try {
-					classMap.put(color+"Dice", listofClasses.get(5).getConstructor(String.class).newInstance(color));
-					shape = (IShape) listofClasses.get(5).getConstructor(String.class).newInstance(color);
+					classMap.put(color+"Dice", listofClasses.get(6).getConstructor(String.class).newInstance(color));
+					shape = (IShape) listofClasses.get(6).getConstructor(String.class).newInstance(color);
 				} catch (InstantiationException | IllegalAccessException | IllegalArgumentException
 						| InvocationTargetException | NoSuchMethodException | SecurityException e) {
 					// TODO Auto-generated catch block

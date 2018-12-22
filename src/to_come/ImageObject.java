@@ -48,7 +48,6 @@ public  class ImageObject implements GameObject{
 		// create a bunch of buffered images and place into an array, to be displayed sequentially
 			color =  image.getColor();
 			spriteImages[0] = image.getImage();
-		
 	}
 
 	@Override

@@ -110,17 +110,21 @@ public class Circus implements World {
 		List<Class<?>> listofClasses = x.getCrunchifyClassNamesFromJar("JAR_F.jar");
 		IShape shape = null;
 		state = new ConstantImageObject();
+		//shape = new backGround("0");
+		
 		try {
-			shape = (IShape) listofClasses.get(3).getConstructor(String.class).newInstance("0");
+			
+			shape = (IShape) listofClasses.get(4).getConstructor(String.class).newInstance("0");
 		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
 				| NoSuchMethodException | SecurityException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		ImageObject bg = new ImageObject(0, 0, shape, 0, state);
 		constant.add(bg);
 		try {
-			shape = (IShape) listofClasses.get(4).getConstructor(String.class).newInstance("0");
+			shape = (IShape) listofClasses.get(5).getConstructor(String.class).newInstance("0");
 		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
 				| NoSuchMethodException | SecurityException e) {
 			// TODO Auto-generated catch block
@@ -129,7 +133,7 @@ public class Circus implements World {
 		state = new ControlledImageObject(width / 3, (int) (height * 0.6));
 		ImageObject clown = new ImageObject(width / 3, (int) (height * 0.6), shape, 0, state);
 		try {
-			shape = (IShape) listofClasses.get(1).getConstructor(String.class).newInstance("0");
+			shape = (IShape) listofClasses.get(2).getConstructor(String.class).newInstance("0");
 		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
 				| NoSuchMethodException | SecurityException e) {
 			// TODO Auto-generated catch block
