@@ -12,10 +12,9 @@ public class MovingPool {
 	private MovingPool() {
 		
 	}
-
+	private int num =0;
 	private static MovingPool objectPool = null;
 	private ArrayList<GameObject> thePool = new ArrayList<GameObject>();
-
 	public static MovingPool getInstance() {
 		if (objectPool == null) {
 			objectPool = new MovingPool();
@@ -25,7 +24,7 @@ public class MovingPool {
 	}
 	
 	public void setPool(int width,int height) {
-		FlyWeight fw = new FlyWeight();
+		FlyWeight fw = new FlyWeight(num);
 		thePool=fw.createPlates(width, height);
 	}
 	
@@ -57,4 +56,8 @@ public class MovingPool {
 		}
 		return (thePool.remove(0));
 	}
+	public void setNum(int num) {
+		this.num=num;
+	}
+	
 }

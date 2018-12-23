@@ -14,18 +14,19 @@ public class FlyWeight {
 	ArrayList<GameObject> shapes = new ArrayList<GameObject>();
 	List<Class<?>> listofClasses;
 	private static final HashMap classMap = new HashMap();
-
-	public FlyWeight() {
+	private int max;
+	public FlyWeight(int num) {
 		jarread x = new jarread();
 		this.listofClasses = x.getCrunchifyClassNamesFromJar("JAR_F.jar");
+		max=num;
 	}
 
 	public ArrayList<GameObject> createPlates(int width, int height) {
 
-		for (int i = 0; i < 25; ++i) {
+		for (int i = 0; i < max; ++i) {
 			// hn3del hna lw hn5ly al etnin random
 			State state = new MovingImageObject();
-			shapes.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * height), getRandomshape(),
+			shapes.add(new ImageObject((int) (Math.random() * width), (int) (Math.random() * -1*height), getRandomshape(),
 					0, state));
 
 		}

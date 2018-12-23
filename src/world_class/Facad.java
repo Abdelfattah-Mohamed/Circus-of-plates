@@ -49,8 +49,7 @@ public class Facad implements IFacad{
                 o.setX((int) (Math.random() * game.getWidth()));
 
             }
-            // o.setX(o.getX() + (Math.random() > 0.5 ? 2 : -2));
-            // al taba2 b3dha l taba2 ele fo2
+            
             if (!timeout & o.isVisible() && (intersect(o, lastplateL))) {
                 int midx = (o.getX() + o.getX() + o.getWidth()) / 2;
                 if (midx <= game.getDummyL().getX() + game.getDummyL().getWidth() && midx >= game.getDummyL().getX()) {
@@ -60,8 +59,7 @@ public class Facad implements IFacad{
                     game.getControl().add(o);
                     game.getControlL().add(o);
                     saveStateL();
-                    // ImageObject obj = (ImageObject) lastplateL;
-                    // obj = (ImageObject) controlL.get(controlL.size()-2);
+                    
                     String color1 = o.getColor();
                     String color2 = ((ImageObject) lastplateL).getColor();
                     if (game.getControlL().size() > 3) {
@@ -72,12 +70,7 @@ public class Facad implements IFacad{
                         }
                     }
 
-                    /*
-                     * if(color1.equals(color2)) { System.out.println(true); countL++; }else {
-                     * if(color3.equals(color2)) { countL=1; }else { countL=0; } }
-                     *
-                     * if (countL == 2 ) { this.notifyAllObserver(); }
-                     */
+                    
 
                 } else {
                     game.getControl().remove(lastplateL);
@@ -116,17 +109,18 @@ public class Facad implements IFacad{
                     caretaker.removeR();
                     game.setCurrentMementoR(game.getCurrentMementoR() - 1);
                 }
-                /*
-                 * if(color1.equals(color2)) { countR++; }else { if(color3.equals(color2)) {
-                 * countR=1; }else { countR=0; } } if (countR ==2) { this.notifyAllObserver(); }
-                 */
-
-                // this.notifyAllObserver();
+                
             }
 
         }
-
-        // itrator
+        
+        if(lastplateR.getY()<=game.getMaxY() || lastplateL.getY()<=game.getMaxY()) {
+        	this.game.setTime(0);
+        }
+       
+        if(game.getControl().size()>= game.getMaxNum()+3) {
+        	this.game.setTime(0);
+        }
         return !timeout;
     }
 

@@ -214,3 +214,54 @@
 2018-12-23 10:57:00,176 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
 2018-12-23 10:57:00,259  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 44 - Game set to normal mode
 2018-12-23 10:57:00,411 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 15
+2018-12-23 16:13:16,568 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:13:17,395  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:13:19,572 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 16:13:19,656  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:13:19,968 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 16:13:19,970  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:13:20,252 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 16:13:24,836 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:13:50,937  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:13:51,847 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 16:15:56,918 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:15:57,966  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:15:58,925 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 16:30:20,746 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:30:21,499  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:30:21,509 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 3000
+2018-12-23 16:30:22,364 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 16:33:51,164 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:33:53,074  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:33:53,951 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 16:34:02,953 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:34:03,647  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 44 - Game set to normal mode
+2018-12-23 16:34:04,642 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 15
+2018-12-23 16:34:12,248 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:34:12,904  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 53 - Game set to hard mode
+2018-12-23 16:34:13,871 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 10
+2018-12-23 16:50:50,092 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:50:50,910  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:50:51,806 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 16:51:41,483 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:51:42,029  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:51:42,947 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 16:52:40,432 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:52:41,341  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:52:42,221 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 16:53:24,609 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 3000
+2018-12-23 16:53:24,609 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 3
+2018-12-23 16:55:50,914 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:55:52,181  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 44 - Game set to normal mode
+2018-12-23 16:55:53,038 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 15
+2018-12-23 16:56:29,490 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:56:30,157  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 53 - Game set to hard mode
+2018-12-23 16:56:31,084 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 10
+2018-12-23 16:59:52,881 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 16:59:54,820  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 35 - Game set to easy mode
+2018-12-23 16:59:55,660 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 30
+2018-12-23 17:00:01,500 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
+2018-12-23 17:00:02,188  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 53 - Game set to hard mode
+2018-12-23 17:00:02,953 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 10
+2018-12-23 17:00:13,532 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 1000
+2018-12-23 17:00:13,533 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 1

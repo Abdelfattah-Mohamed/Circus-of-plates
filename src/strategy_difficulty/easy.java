@@ -28,13 +28,19 @@ public class easy implements Strategy {
 	@Override
 	public int noOfShapes() {
 		// TODO Auto-generated method stub
-		return 100;
+		return 35;
 	}
 
 	@Override
 	public int maxHeightOfPlate() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 50;
+	}
+	
+	@Override
+	public int getMaxTime() {
+		// TODO Auto-generated method stub
+		return 3*60000;
 	}
 
 }

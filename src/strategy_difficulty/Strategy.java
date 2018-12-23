@@ -30,5 +30,10 @@ public interface Strategy {
 	 * @return return max height in any mode if exceed then game over.
 	 */
 	public int maxHeightOfPlate();
+	/**
+	 * 
+	 * @return the max time started
+	 */
+	public int getMaxTime();
 
 }

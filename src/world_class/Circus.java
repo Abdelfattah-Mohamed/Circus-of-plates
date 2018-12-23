@@ -13,13 +13,12 @@ import java.util.*;
 
 public class Circus implements World {
 
-	private static int MAX_TIME = 1 * 60 * 1000 * 1000; // 1 minute
+	private static int MAX_TIME ; 
 	private int score = 0;
 	private long startTime = System.currentTimeMillis();
 	private final int width;
 	private final int height;
 	private Strategy difficulty;
-	private boolean flag = false;
 	private ArrayList<GameObject> constant = new ArrayList<GameObject>();
 	private ArrayList<GameObject> moving = new ArrayList<GameObject>();
 	private ArrayList<GameObject> control = new ArrayList<GameObject>();
@@ -33,7 +32,8 @@ public class Circus implements World {
 	private ImageObject dummyL;
 	private ImageObject dummyR;
 	private IFacad logic;
-
+	private int limitY;
+	private int maxNum;
 	public List<Observer> getObservers() {
 		return observers;
 	}
@@ -99,9 +99,13 @@ public class Circus implements World {
 	}
 
 	public Circus(int width, int height, Strategy difficulty) {
+
 		this.width = width;
 		this.height = height;
 		this.difficulty = difficulty;
+		this.MAX_TIME = this.difficulty.getMaxTime();
+		this.limitY=this.difficulty.maxHeightOfPlate();
+		this.maxNum=this.difficulty.noOfShapes();
 		State state;
 		jarread x = new jarread();
 		List<Class<?>> listofClasses = x.getCrunchifyClassNamesFromJar("JAR_F.jar");
@@ -152,6 +156,7 @@ public class Circus implements World {
 		addition_classes.Sound.getInstance().startCircusSound();
 		// moving objects (plates)
 		MovingPool mpl = MovingPool.getInstance();
+		mpl.setNum(maxNum);
 		mpl.setPool(width, height);
 		moving = mpl.usePool();
 		logic = new Facad(this);
@@ -240,4 +245,12 @@ public class Circus implements World {
 		this.score = score;
 	}
 
+	public int getMaxY() {
+		return this.limitY;
+	}
+	
+	public int getMaxNum() {
+		return this.maxNum;
+	}
+	
 }

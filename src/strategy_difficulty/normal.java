@@ -28,13 +28,19 @@ public class normal implements Strategy {
 	@Override
 	public int noOfShapes() {
 		// TODO Auto-generated method stub
-		return 200;
+		return 30;
 	}
 
 	@Override
 	public int maxHeightOfPlate() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 100;
+	}
+
+	@Override
+	public int getMaxTime() {
+		// TODO Auto-generated method stub
+		return 2*60000;
 	}
 
 }
