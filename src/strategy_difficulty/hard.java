@@ -25,4 +25,16 @@ public class hard implements Strategy {
 		return 1;
 	}
 
+	@Override
+	public int noOfShapes() {
+		// TODO Auto-generated method stub
+		return 300;
+	}
+
+	@Override
+	public int maxHeightOfPlate() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

@@ -25,4 +25,16 @@ public class normal implements Strategy {
 		return 2;
 	}
 
+	@Override
+	public int noOfShapes() {
+		// TODO Auto-generated method stub
+		return 200;
+	}
+
+	@Override
+	public int maxHeightOfPlate() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

@@ -34,7 +34,6 @@ public class Circus implements World {
 	private ImageObject dummyR;
 	private IFacad logic;
 
-
 	public List<Observer> getObservers() {
 		return observers;
 	}
@@ -99,8 +98,6 @@ public class Circus implements World {
 		return originator;
 	}
 
-
-
 	public Circus(int width, int height, Strategy difficulty) {
 		this.width = width;
 		this.height = height;
@@ -110,17 +107,17 @@ public class Circus implements World {
 		List<Class<?>> listofClasses = x.getCrunchifyClassNamesFromJar("JAR_F.jar");
 		IShape shape = null;
 		state = new ConstantImageObject();
-		//shape = new backGround("0");
-		
+		// shape = new backGround("0");
+
 		try {
-			
+
 			shape = (IShape) listofClasses.get(4).getConstructor(String.class).newInstance("0");
 		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
 				| NoSuchMethodException | SecurityException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		ImageObject bg = new ImageObject(0, 0, shape, 0, state);
 		constant.add(bg);
 		try {
@@ -157,7 +154,7 @@ public class Circus implements World {
 		MovingPool mpl = MovingPool.getInstance();
 		mpl.setPool(width, height);
 		moving = mpl.usePool();
-		logic=new Facad(this);
+		logic = new Facad(this);
 	}
 
 	@Override
@@ -185,7 +182,6 @@ public class Circus implements World {
 		return height;
 	}
 
-
 	public ImageObject getDummyL() {
 		return dummyL;
 	}
@@ -200,7 +196,6 @@ public class Circus implements World {
 		logic.iterate();
 		return logic.refreshLogic();
 	}
-
 
 	@Override
 	public String getStatus() {
@@ -231,6 +226,10 @@ public class Circus implements World {
 	public int getScore() {
 		// TODO Auto-generated method stub
 		return this.score;
+	}
+	
+	public Circus getCircus() {
+		return this;
 	}
 
 	public void setTime(int sTime) {

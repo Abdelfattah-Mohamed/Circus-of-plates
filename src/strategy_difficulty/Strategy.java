@@ -18,4 +18,17 @@ public interface Strategy {
 	 * @return increasing of score at three mode.
 	 */
 	public int score();
+
+	/**
+	 * 
+	 * @return number of shapes falling in any mode.
+	 */
+	public int noOfShapes();
+
+	/**
+	 * 
+	 * @return return max height in any mode if exceed then game over.
+	 */
+	public int maxHeightOfPlate();
+
 }

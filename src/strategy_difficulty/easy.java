@@ -25,4 +25,16 @@ public class easy implements Strategy {
 		return 3;
 	}
 
+	@Override
+	public int noOfShapes() {
+		// TODO Auto-generated method stub
+		return 100;
+	}
+
+	@Override
+	public int maxHeightOfPlate() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
