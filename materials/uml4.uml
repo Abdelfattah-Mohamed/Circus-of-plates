@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="167.0">to_come.FlyWeight</node>
+    <node x="83.0" y="0.0">to_come.State</node>
+    <node x="27.5" y="268.0">to_come.MovingPool</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="to_come.FlyWeight" target="to_come.State">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="to_come.MovingPool" target="to_come.FlyWeight">
+      <point x="62.5" y="-91.5" />
+      <point x="215.0" y="243.0" />
+      <point x="228.75" y="243.0" />
+      <point x="76.25" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="240.42857142857127" y="132.1428571428571" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

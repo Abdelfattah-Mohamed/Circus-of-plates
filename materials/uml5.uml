@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="690.0" y="355.0">MenuBarGenerator</node>
+    <node x="441.3818548387097" y="712.0">MainMenu</node>
+    <node x="262.99999999999994" y="322.0">ButtonGenerator</node>
+    <node x="183.41666666666663" y="0.0">ScreenResolution</node>
+    <node x="194.91666666666663" y="188.0">Command</node>
+    <node x="214.78741039426535" y="836.0">Main</node>
+    <node x="64.34444444444449" y="556.0">GameDifficultyBox</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MainMenu" target="ScreenResolution">
+      <point x="121.62500000000003" y="-37.0" />
+      <point x="702.0068548387098" y="692.0" />
+      <point x="1119.5" y="692.0" />
+      <point x="1119.5" y="138.0" />
+      <point x="382.69444444444446" y="138.0" />
+      <point x="93.77777777777783" y="59.0" />
+    </edge>
+    <edge source="MainMenu" target="ButtonGenerator">
+      <point x="-17.375" y="-37.0" />
+      <point x="563.0068548387097" y="692.0" />
+      <point x="554.5374103942654" y="692.0" />
+      <point x="554.5374103942654" y="531.0" />
+      <point x="517.375" y="531.0" />
+      <point x="50.875" y="92.0" />
+    </edge>
+    <edge source="ButtonGenerator" target="ScreenResolution">
+      <point x="135.66666666666663" y="-92.0" />
+      <point x="602.1666666666665" y="302.0" />
+      <point x="581.4166666666666" y="302.0" />
+      <point x="581.4166666666666" y="158.0" />
+      <point x="335.80555555555554" y="158.0" />
+      <point x="46.888888888888914" y="59.0" />
+    </edge>
+    <edge source="GameDifficultyBox" target="ScreenResolution">
+      <point x="-166.80000000000007" y="-48.0" />
+      <point x="106.04444444444442" y="531.0" />
+      <point x="167.65448028673836" y="531.0" />
+      <point x="167.65448028673836" y="168.0" />
+      <point x="265.4722222222222" y="168.0" />
+      <point x="-23.444444444444457" y="59.0" />
+    </edge>
+    <edge source="GameDifficultyBox" target="Command">
+      <point x="-1.1368683772161603E-13" y="-48.0" />
+      <point x="272.8444444444444" y="531.0" />
+      <point x="203.0374999999999" y="531.0" />
+      <point x="203.0374999999999" y="302.0" />
+      <point x="288.91666666666663" y="302.0" />
+      <point x="-94.0" y="37.0" />
+    </edge>
+    <edge source="MainMenu" target="MenuBarGenerator">
+      <point x="52.125" y="-37.0" />
+      <point x="632.5068548387097" y="672.0" />
+      <point x="906.1318548387098" y="672.0" />
+      <point x="906.1318548387098" y="531.0" />
+      <point x="794.75" y="531.0" />
+      <point x="-104.75" y="59.0" />
+    </edge>
+    <edge source="Main" target="ScreenResolution">
+      <point x="-21.125" y="-25.5" />
+      <point x="278.16241039426535" y="806.0" />
+      <point x="37.0" y="806.0" />
+      <point x="37.0" y="148.0" />
+      <point x="218.58333333333326" y="148.0" />
+      <point x="-70.33333333333337" y="59.0" />
+    </edge>
+    <edge source="MenuBarGenerator" target="Command">
+      <point x="0.0" y="-59.0" />
+      <point x="899.5" y="282.0" />
+      <point x="539.5833333333333" y="282.0" />
+      <point x="156.66666666666663" y="37.0" />
+    </edge>
+    <edge source="MainMenu" target="GameDifficultyBox">
+      <point x="-52.125" y="-37.0" />
+      <point x="528.2568548387097" y="672.0" />
+      <point x="377.0944444444445" y="672.0" />
+      <point x="104.25" y="48.0" />
+    </edge>
+    <edge source="MenuBarGenerator" target="ScreenResolution">
+      <point x="139.66666666666663" y="-59.0" />
+      <point x="1039.1666666666665" y="302.0" />
+      <point x="1023.6544802867384" y="302.0" />
+      <point x="1023.6544802867384" y="148.0" />
+      <point x="359.25" y="148.0" />
+      <point x="70.33333333333337" y="59.0" />
+    </edge>
+    <edge source="Command" target="ScreenResolution">
+      <point x="-94.0" y="-37.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="GameDifficultyBox" target="ButtonGenerator">
+      <point x="83.39999999999986" y="-48.0" />
+      <point x="356.24444444444435" y="531.0" />
+      <point x="313.87499999999994" y="531.0" />
+      <point x="-152.625" y="92.0" />
+    </edge>
+    <edge source="Main" target="MainMenu">
+      <point x="63.375" y="-25.5" />
+      <point x="362.66241039426535" y="816.0" />
+      <point x="649.8818548387097" y="816.0" />
+      <point x="69.5" y="37.0" />
+    </edge>
+    <edge source="ButtonGenerator" target="Command">
+      <point x="-135.66666666666663" y="-92.0" />
+      <point x="330.8333333333333" y="302.0" />
+      <point x="351.58333333333326" y="302.0" />
+      <point x="-31.33333333333337" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="266.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

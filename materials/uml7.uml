@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="539.0" y="101.0">observer.Time</node>
+    <node x="273.74999999999994" y="0.0">observer.Observer</node>
+    <node x="0.0" y="101.0">observer.Sound</node>
+    <node x="365.0" y="101.0">observer.Score</node>
+    <node x="173.99999999999997" y="101.0">observer.plateServer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="observer.Time" target="observer.Observer">
+      <point x="0.0" y="-37.0" />
+      <point x="616.0" y="71.0" />
+      <point x="408.49999999999994" y="71.0" />
+      <point x="57.75" y="25.5" />
+    </edge>
+    <edge source="observer.Score" target="observer.Observer">
+      <point x="-2.8421709430404007E-14" y="-37.0" />
+      <point x="441.99999999999994" y="81.0" />
+      <point x="369.99999999999994" y="81.0" />
+      <point x="19.25" y="25.5" />
+    </edge>
+    <edge source="observer.Sound" target="observer.Observer">
+      <point x="0.0" y="-37.0" />
+      <point x="77.0" y="71.0" />
+      <point x="292.99999999999994" y="71.0" />
+      <point x="-57.75" y="25.5" />
+    </edge>
+    <edge source="observer.plateServer" target="observer.Observer">
+      <point x="0.0" y="-37.0" />
+      <point x="259.5" y="81.0" />
+      <point x="331.49999999999994" y="81.0" />
+      <point x="-19.25" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="205.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

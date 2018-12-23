@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2018-12-23 00:00:28,084 DEBUG [main] - MainLog.start 72 - Main Menu Generated Successfully!
 2018-12-23 00:00:30,309  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 44 - Game set to normal mode
 2018-12-23 00:00:30,876 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 15
@@ -290,3 +291,95 @@
 2018-12-23 18:14:14,917 DEBUG [AWT-EventQueue-0] - MainLog.speed 10 - game speed set to 10
 2018-12-23 18:14:26,547 DEBUG [AWT-EventQueue-0] - MainLog.time 17 - time set to 1000
 2018-12-23 18:14:26,547 DEBUG [AWT-EventQueue-0] - MainLog.score 24 - score set to 1
+=======
+2018-12-24 00:28:46,404  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 00:28:51,157  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 00:28:51,179 ERROR [AWT-EventQueue-0] - MainLog.<init> 130 - FAILED TO LOAD SHAPES
+2018-12-24 00:30:38,557  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 00:30:52,407  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 00:30:52,489 ERROR [AWT-EventQueue-0] - MainLog.<init> 130 - FAILED TO LOAD SHAPES
+2018-12-24 00:31:57,271  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 00:32:04,563  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 54 - Game set to easy mode
+2018-12-24 00:36:55,098 ERROR [AWT-EventQueue-0] - MainLog.<init> 130 - FAILED TO LOAD SHAPES
+2018-12-24 01:08:05,396  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:08:07,212  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:08:07,635 ERROR [AWT-EventQueue-0] - MainLog.<init> 142 - failed to load the background
+2018-12-24 01:08:07,637 ERROR [AWT-EventQueue-0] - MainLog.<init> 153 - FAILED TO LOAD CLOWN
+2018-12-24 01:08:07,641 ERROR [AWT-EventQueue-0] - MainLog.startTheme 38 - can't find audio file
+2018-12-24 01:08:07,641  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:08:07,644 ERROR [AWT-EventQueue-0] - MainLog.getRandomshape 71 - ERROR LOADING PLATE SHAPE
+2018-12-24 01:09:15,998  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:09:18,671  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:09:19,038 ERROR [AWT-EventQueue-0] - MainLog.<init> 142 - failed to load the background
+2018-12-24 01:09:19,040 ERROR [AWT-EventQueue-0] - MainLog.<init> 153 - FAILED TO LOAD CLOWN
+2018-12-24 01:09:19,042 ERROR [AWT-EventQueue-0] - MainLog.startTheme 38 - can't find audio file
+2018-12-24 01:09:19,043  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:09:19,048 ERROR [AWT-EventQueue-0] - MainLog.getRandomshape 87 - ERROR LOADING CUP SHAPE
+2018-12-24 01:19:36,515  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:19:37,780  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:19:38,389 ERROR [AWT-EventQueue-0] - MainLog.startTheme 38 - can't find audio file
+2018-12-24 01:19:38,389  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:19:38,393 ERROR [AWT-EventQueue-0] - MainLog.getRandomshape 71 - ERROR LOADING PLATE SHAPE
+2018-12-24 01:20:11,296  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:20:13,101  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:20:13,694 ERROR [AWT-EventQueue-0] - MainLog.startTheme 38 - can't find audio file
+2018-12-24 01:20:13,694  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:20:13,722 ERROR [AWT-EventQueue-0] - MainLog.getRandomshape 87 - ERROR LOADING CUP SHAPE
+2018-12-24 01:20:47,744  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:20:49,538  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:20:50,115 ERROR [AWT-EventQueue-0] - MainLog.startTheme 38 - can't find audio file
+2018-12-24 01:20:50,116  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:20:59,663 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:20:59,663  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:21:00,964 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:21:00,964  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:21:01,452 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:21:01,452  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:21:04,295 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:21:04,295  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:21:04,296 ERROR [AWT-EventQueue-0] - MainLog.update 35 - can't find audio file
+2018-12-24 01:21:04,296  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 01:21:04,296  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:21:04,529 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:21:04,531  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:21:09,175 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:21:09,175  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:21:10,360 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:21:10,360  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:21:16,840 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:21:16,841  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:21:18,005 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:21:18,006  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:21:19,922 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:21:19,922  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:21:19,923 ERROR [AWT-EventQueue-0] - MainLog.update 35 - can't find audio file
+2018-12-24 01:21:19,923  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 21
+2018-12-24 01:21:19,923  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:21:25,252 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:21:25,252  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:22:14,420  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:22:15,833  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:22:16,555 ERROR [AWT-EventQueue-0] - MainLog.startTheme 38 - can't find audio file
+2018-12-24 01:22:16,557  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:22:26,209 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:22:26,209  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:22:30,732  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:22:31,766  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 54 - Game set to easy mode
+2018-12-24 01:22:32,384 ERROR [AWT-EventQueue-0] - MainLog.startTheme 38 - can't find audio file
+2018-12-24 01:22:32,384  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:22:48,086 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:22:48,087  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:22:49,127 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:22:49,127  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:22:49,128 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:22:49,128  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:22:49,129 ERROR [AWT-EventQueue-0] - MainLog.update 35 - can't find audio file
+2018-12-24 01:22:49,130  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 33
+2018-12-24 01:22:49,130  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:22:49,471 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:22:49,472  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:22:52,159 ERROR [AWT-EventQueue-0] - MainLog.two 133 - can't find audio file
+2018-12-24 01:22:52,162  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:22:54,999 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:22:54,999  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+>>>>>>> 7baa5fd2ac7497020d5f10e1af5016fd683628a3

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="211.0">strategy_difficulty.easy</node>
+    <node x="422.0" y="211.0">strategy_difficulty.normal</node>
+    <node x="211.0" y="0.0">strategy_difficulty.Strategy</node>
+    <node x="211.0" y="211.0">strategy_difficulty.hard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategy_difficulty.easy" target="strategy_difficulty.Strategy">
+      <point x="0.0" y="-80.5" />
+      <point x="95.5" y="186.0" />
+      <point x="242.83333333333334" y="186.0" />
+      <point x="-63.66666666666666" y="80.5" />
+    </edge>
+    <edge source="strategy_difficulty.hard" target="strategy_difficulty.Strategy">
+      <point x="0.0" y="-80.5" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="strategy_difficulty.normal" target="strategy_difficulty.Strategy">
+      <point x="0.0" y="-80.5" />
+      <point x="517.5" y="186.0" />
+      <point x="370.16666666666663" y="186.0" />
+      <point x="63.66666666666663" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
