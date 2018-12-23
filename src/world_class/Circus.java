@@ -242,6 +242,7 @@ public class Circus implements World {
 	}
 
 	public void setScore(int score) {
+		score = Math.max(score, 0);
 		this.score = score;
 	}
 

@@ -80,6 +80,9 @@ public class Facad implements IFacad{
                     game.getMoving().add(lastplateL);
                     caretaker.removeL();
                     game.setCurrentMementoL(game.getCurrentMementoL() - 1);
+                    int scr = game.getScore();
+                    scr--;
+                    game.setScore(scr);
                 }
             }
             if (!timeout & o.isVisible() && (intersect(o, lastplateR))) {
@@ -108,6 +111,9 @@ public class Facad implements IFacad{
                     game.getMoving().add(lastplateR);
                     caretaker.removeR();
                     game.setCurrentMementoR(game.getCurrentMementoR() - 1);
+                    int scr = game.getScore();
+                    scr--;
+                    game.setScore(scr);
                 }
                 
             }
