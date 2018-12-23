@@ -1,14 +1,6 @@
-
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.*;
-
-import eg.edu.alexu.csd.oop.game.GameEngine;
-import eg.edu.alexu.csd.oop.game.GameEngine.GameController;
-import strategy_difficulty.*;
-import world_class.Circus;
+import Model.strategy_difficulty.*;
+import View.MainMenu;
+import View.ScreenResolution;
 
 public class Main {
 

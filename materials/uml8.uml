@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="124.0">momento.Caretaker</node>
+    <node x="106.0" y="0.0">momento.Memento</node>
+    <node x="253.99999999999997" y="157.0">momento.Originator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="momento.Originator" target="momento.Memento">
+      <point x="-73.5" y="-47.5" />
+      <point x="327.5" y="104.0" />
+      <point x="230.59999999999997" y="104.0" />
+      <point x="35.599999999999966" y="37.0" />
+    </edge>
+    <edge source="momento.Caretaker" target="momento.Memento">
+      <point x="0.0" y="-80.5" />
+      <point x="117.0" y="104.0" />
+      <point x="159.39999999999998" y="104.0" />
+      <point x="-35.60000000000002" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="56.25000000000006" y="401.0">world_class.Circus</node>
+    <node x="111.75000000000001" y="233.0">world_class.Facad</node>
+    <node x="208.0" y="0.0">to_come.MovingPool</node>
+    <node x="0.0" y="44.0">world_class.IFacad</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="world_class.Facad" target="world_class.IFacad">
+      <point x="-47.0" y="-59.0" />
+      <point x="158.75" y="208.0" />
+      <point x="141.0" y="208.0" />
+      <point x="47.0" y="47.5" />
+    </edge>
+    <edge source="world_class.Circus" target="world_class.IFacad">
+      <point x="-119.60000000000002" y="-411.0" />
+      <point x="86.15000000000003" y="376.0" />
+      <point x="62.666666666666686" y="376.0" />
+      <point x="62.666666666666686" y="208.0" />
+      <point x="47.0" y="208.0" />
+      <point x="-47.0" y="47.5" />
+    </edge>
+    <edge source="world_class.Facad" target="world_class.Circus">
+      <point x="0.0" y="59.0" />
+      <point x="-2.8421709430404007E-14" y="-411.0" />
+    </edge>
+    <edge source="world_class.Facad" target="to_come.MovingPool">
+      <point x="47.0" y="-59.0" />
+      <point x="252.75" y="208.0" />
+      <point x="270.5" y="208.0" />
+      <point x="-62.5" y="91.5" />
+    </edge>
+    <edge source="world_class.Circus" target="to_come.MovingPool">
+      <point x="119.60000000000002" y="-411.0" />
+      <point x="325.3500000000001" y="376.0" />
+      <point x="359.1666666666667" y="376.0" />
+      <point x="359.1666666666667" y="208.0" />
+      <point x="395.5" y="208.0" />
+      <point x="62.499999999999986" y="91.5" />
+    </edge>
+    <edge source="world_class.Circus" target="world_class.Facad">
+      <point x="-59.80000000000004" y="-411.0" />
+      <point x="145.95000000000002" y="376.0" />
+      <point x="143.08333333333337" y="376.0" />
+      <point x="-62.66666666666666" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="471.0" y="259.5" />
+  <SelectedNodes>
+    <node>world_class.Circus</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
