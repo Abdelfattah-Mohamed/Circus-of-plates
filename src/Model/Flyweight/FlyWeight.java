@@ -62,8 +62,8 @@ public class FlyWeight {
         if (num1 == 1) {
             if (classMap.get(color + "Plate") == null) {
                 try {
-                    classMap.put(color + "Plate", listofClasses.get(2).getConstructor(String.class).newInstance(color));
-                    shape = (IShape) listofClasses.get(2).getConstructor(String.class).newInstance(color);
+                    classMap.put(color + "Plate", listofClasses.get(7).getConstructor(String.class).newInstance(color));
+                    shape = (IShape) listofClasses.get(7).getConstructor(String.class).newInstance(color);
                     GameLogger.getInstance().log.debug("Plate Shape loaded successfully");
                 } catch (InstantiationException | IllegalAccessException | IllegalArgumentException
                         | InvocationTargetException | NoSuchMethodException | SecurityException e) {
@@ -78,8 +78,8 @@ public class FlyWeight {
         } else if (num1 == 2) {
             if (classMap.get(color + "Cup") == null) {
                 try {
-                    classMap.put(color + "Cup", listofClasses.get(0).getConstructor(String.class).newInstance(color));
-                    shape = (IShape) listofClasses.get(0).getConstructor(String.class).newInstance(color);
+                    classMap.put(color + "Cup", listofClasses.get(6).getConstructor(String.class).newInstance(color));
+                    shape = (IShape) listofClasses.get(6).getConstructor(String.class).newInstance(color);
                     GameLogger.getInstance().log.debug("Cup Shape loaded successfully");
                 } catch (InstantiationException | IllegalAccessException | IllegalArgumentException
                         | InvocationTargetException | NoSuchMethodException | SecurityException e) {
@@ -94,8 +94,8 @@ public class FlyWeight {
         } else {
             if (classMap.get(color + "Dice") == null) {
                 try {
-                    classMap.put(color + "Dice", listofClasses.get(6).getConstructor(String.class).newInstance(color));
-                    shape = (IShape) listofClasses.get(6).getConstructor(String.class).newInstance(color);
+                    classMap.put(color + "Dice", listofClasses.get(3).getConstructor(String.class).newInstance(color));
+                    shape = (IShape) listofClasses.get(3).getConstructor(String.class).newInstance(color);
                     GameLogger.getInstance().log.debug("Die Shape loaded successfully");
                 } catch (InstantiationException | IllegalAccessException | IllegalArgumentException
                         | InvocationTargetException | NoSuchMethodException | SecurityException e) {
