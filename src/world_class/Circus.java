@@ -136,11 +136,11 @@ public class Circus implements World {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		state = new ControlledImageObject(clown.getX() - 17, clown.getY() + 37);
-		dummyL = new ImageObject(clown.getX() - 17, clown.getY() + 37, shape, 0, state);
+		state = new ControlledImageObject(clown.getX() - 22, clown.getY() + 37);
+		dummyL = new ImageObject(clown.getX() - 22, clown.getY() + 37, shape, 0, state);
 		// dummyL.setVisible(false);
-		state = new ControlledImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40);
-		dummyR = new ImageObject(clown.getX() + clown.getWidth() - 50, clown.getY() + 40, shape, 0, state);
+		state = new ControlledImageObject(clown.getX() + clown.getWidth() - 55, clown.getY() + 40);
+		dummyR = new ImageObject(clown.getX() + clown.getWidth() - 55, clown.getY() + 40, shape, 0, state);
 		// dummyR.setVisible(false);
 		control.add(clown);
 		control.add(dummyL);

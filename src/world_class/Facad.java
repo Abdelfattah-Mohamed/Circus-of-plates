@@ -136,7 +136,7 @@ public class Facad implements IFacad{
         itr2 = new Iterator_concrete(game.getControlL());
         for (Iterator iter = itr2.getIterator(0); iter.hasNext();) {
             GameObject o = (GameObject) iter.next();
-            o.setX((int) Math.min(o.getX(), screenSize.getWidth()-2*157));
+            o.setX((int) Math.min(o.getX(), screenSize.getWidth()-225));
         }
         Iterator_concrete itr3;
         itr3 = new Iterator_concrete(game.getControlR());
