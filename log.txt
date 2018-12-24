@@ -383,3 +383,481 @@
 2018-12-24 01:22:54,999 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
 2018-12-24 01:22:54,999  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
 >>>>>>> 7baa5fd2ac7497020d5f10e1af5016fd683628a3
+2018-12-24 01:32:07,086  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:32:08,357  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 54 - Game set to easy mode
+2018-12-24 01:32:09,031 ERROR [AWT-EventQueue-0] - MainLog.startTheme 38 - can't find audio file
+2018-12-24 01:32:09,032  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:32:22,131 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:32:22,131  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:32:25,290 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:32:25,291  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:32:32,208 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:32:32,209  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:32:32,861 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:32:32,861  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:32:36,445 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:32:36,445  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:32:36,449 ERROR [AWT-EventQueue-0] - MainLog.update 35 - can't find audio file
+2018-12-24 01:32:36,450  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 33
+2018-12-24 01:32:36,453  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 86 - 3 Matched - Score increased
+2018-12-24 01:37:05,709  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:37:07,404  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:37:07,925 ERROR [AWT-EventQueue-0] - MainLog.startTheme 38 - can't find audio file
+2018-12-24 01:37:07,925  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:37:12,947 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:37:12,948  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:37:13,418 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:37:13,418  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:37:13,613 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:37:13,614  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:37:14,103 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:37:14,103  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:37:15,118 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:37:15,119  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:37:16,647 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:37:16,647  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:37:17,164 ERROR [AWT-EventQueue-0] - MainLog.two 133 - can't find audio file
+2018-12-24 01:37:17,164  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:37:18,132 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:37:18,132  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:37:19,124 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:37:19,125  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:37:19,136 ERROR [AWT-EventQueue-0] - MainLog.gameOver 61 - can't find audio file
+2018-12-24 01:40:19,391  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:40:20,619  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:40:21,189 ERROR [AWT-EventQueue-0] - MainLog.startTheme 38 - can't find audio file
+2018-12-24 01:40:21,189  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:40:26,598 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:40:26,598  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:40:27,791 ERROR [AWT-EventQueue-0] - MainLog.two 133 - can't find audio file
+2018-12-24 01:40:27,791  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:40:29,474 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:40:29,474  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:40:31,085 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:40:31,085  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:40:31,431 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:40:31,433  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:40:33,530 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:40:33,530  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:40:36,147 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:40:36,147  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:40:37,929 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:40:37,929  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:40:37,932 ERROR [AWT-EventQueue-0] - MainLog.update 35 - can't find audio file
+2018-12-24 01:40:37,933  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 01:40:37,933  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:40:41,680 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:40:41,680  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:40:42,510 ERROR [AWT-EventQueue-0] - MainLog.caught 99 - can't find audio file
+2018-12-24 01:40:42,511  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:40:42,514 ERROR [AWT-EventQueue-0] - MainLog.update 35 - can't find audio file
+2018-12-24 01:40:42,514  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 21
+2018-12-24 01:40:42,514  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 86 - 3 Matched - Score increased
+2018-12-24 01:42:19,130  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:42:20,259  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:42:21,312  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:42:26,562  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:29,538  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:30,796  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:30,801  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 01:42:30,802  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:42:33,163  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:33,849  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:36,632  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:36,636  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 21
+2018-12-24 01:42:36,637  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:42:41,014  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:42,902  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:45,054  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:42:46,691  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:42:52,251  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:55,516  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:57,399  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:42:57,424  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 31
+2018-12-24 01:42:57,425  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:43:04,257  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:43:06,440  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:43:09,501  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:43:11,699  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:43:22,389  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:43:22,835  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:43:23,271 ERROR [AWT-EventQueue-0] - MainLog.gameOver 61 - can't find audio file
+2018-12-24 01:43:23,273  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 177 - Game Over
+2018-12-24 01:44:07,656  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:44:08,706  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:44:09,328  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:44:14,389  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:44:16,239  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:44:19,364  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:44:20,225  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:44:24,496  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:44:25,103  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:44:25,467  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:44:25,714  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:44:26,276  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:44:26,509  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:44:26,517  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 01:44:26,518  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 86 - 3 Matched - Score increased
+2018-12-24 01:44:29,715  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:44:37,920  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:44:37,928  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 21
+2018-12-24 01:44:37,928  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:44:40,182  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:44:40,303  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:44:40,488  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:44:42,936  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:44:47,545  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:44:47,549  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 01:44:47,550  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:44:49,088  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:45:00,442  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:45:01,486  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:45:02,099  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:45:09,935  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:45:10,922  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:45:11,796  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:46:03,099  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:46:04,298  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 54 - Game set to easy mode
+2018-12-24 01:46:04,917  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:46:08,217  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:46:09,682  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:46:10,291  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:46:17,589  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:46:21,896  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:46:23,767  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:46:24,467  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:46:24,724  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:46:24,989  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:46:25,059  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:46:36,346  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:46:40,485  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:46:45,112  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:46:49,640  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:47:01,146  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:47:04,154  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:47:05,364  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:47:06,779  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:47:09,696 ERROR [AWT-EventQueue-0] - MainLog.gameOver 62 - can't find audio file
+2018-12-24 01:47:09,697  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 177 - Game Over
+2018-12-24 01:47:48,704  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:47:49,641  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:47:50,277  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:48:03,628  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:48:04,970  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:48:05,595  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:48:13,606  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:48:14,705  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:48:15,324  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:48:24,666  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:48:26,009  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:48:26,624 ERROR [AWT-EventQueue-0] - MainLog.startTheme 42 - can't find audio file
+2018-12-24 01:48:26,625  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:48:36,598  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:48:37,666  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:48:38,289  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:48:49,972  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:48:53,041  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:48:53,695  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:49:54,319  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:49:55,561  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:49:56,170  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:50:03,895  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:50:04,994  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:50:05,622  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:50:12,621  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:50:13,849  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:50:16,239  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:50:17,688  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:50:19,987  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:50:21,245  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:50:28,202  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:50:29,096  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:50:29,717  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:50:35,145  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:50:35,398  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:50:36,118  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:50:38,345  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:50:38,606  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:50:38,733  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:51:44,018  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:51:44,689  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:51:45,295  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:51:49,970 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:51:49,971  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:51:51,142 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:51:51,142  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:51:53,146  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:51:53,375 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:51:53,375  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:51:54,976 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:51:54,977  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:51:55,582 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:51:55,582  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:51:57,719 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:51:57,719  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:51:57,727  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 01:51:57,728  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 86 - 3 Matched - Score increased
+2018-12-24 01:52:19,064  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:52:20,002  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:52:20,664  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:52:25,493 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:52:25,493  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:52:26,766 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:52:26,766  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:52:27,462 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:52:27,463  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:52:27,821 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:52:27,821  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:52:28,194 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:52:28,195  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:52:41,155  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:52:42,465  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:52:43,089  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:52:48,008 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:52:48,009  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:52:50,278 ERROR [AWT-EventQueue-0] - MainLog.caught 103 - can't find audio file
+2018-12-24 01:52:50,278  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:53:12,003  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:53:13,304  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:53:14,006  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:53:19,555  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:53:19,856  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:53:20,185  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:53:21,296  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:55:32,522  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:55:33,616  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:55:34,289  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:55:39,144  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:55:39,560  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:55:41,380  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:55:41,386  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 01:55:41,387  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 86 - 3 Matched - Score increased
+2018-12-24 01:55:41,494  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:55:42,665  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:55:42,686  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:55:42,946  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:55:43,195  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:55:43,286  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:55:43,380  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:55:44,631  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:55:45,345  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:55:47,985  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:55:49,107  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:55:49,143  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:55:49,301  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:55:51,142  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:55:51,281  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:55:56,945  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:55:56,970  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 01:55:56,971  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:55:58,833  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:00,874  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:56:00,942  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:01,374  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:01,377  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 21
+2018-12-24 01:56:01,378  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:56:03,002  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:03,005  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 31
+2018-12-24 01:56:03,006  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:56:07,275  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:56:11,016  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:13,877  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:13,881  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 41
+2018-12-24 01:56:13,881  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:56:16,004  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:56:16,261  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:56:19,391  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:21,860  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:22,565  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:22,571  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 31
+2018-12-24 01:56:22,572  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:56:23,745  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:56:25,248  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:56:25,500  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:25,806  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:26,174  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:28,086  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:30,493  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:56:30,731  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:56:31,127  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:56:32,732  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:56:34,344  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:56:37,094  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:56:39,547  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:56:39,557 ERROR [AWT-EventQueue-0] - MainLog.gameOver 64 - can't find audio file
+2018-12-24 01:56:39,558  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 156 - Game Over
+2018-12-24 01:56:59,779  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 01:57:00,864  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 01:57:01,529  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 01:57:08,832  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:57:10,167  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:57:11,474  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:57:14,527  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:57:15,934  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:57:19,193  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:57:20,304  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:57:20,947  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:57:21,875  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:57:22,732  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:57:23,603  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:57:23,607  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 01:57:23,608  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 86 - 3 Matched - Score increased
+2018-12-24 01:57:30,083  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:57:31,380  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 01:57:37,515  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:57:37,519  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 01:57:37,520  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 127 - 3 View.Shapes Matched
+2018-12-24 01:57:39,820  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:57:41,196  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:57:45,001  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:57:45,595  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:57:48,561  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:57:49,113  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 01:57:51,482  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:57:53,456  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:57:54,033  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 01:57:54,468  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:57:59,568  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:58:01,236  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 01:58:02,880 ERROR [AWT-EventQueue-0] - MainLog.gameOver 64 - can't find audio file
+2018-12-24 01:58:02,881  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 177 - Game Over
+2018-12-24 02:02:51,384  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 02:02:52,447  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 02:02:53,143  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:02:57,879  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:02:58,703  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:02:59,138  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:02:59,897  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:03:02,117  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:03:04,658  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:03:06,453  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:03:08,971  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 02:03:09,452  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:03:10,638  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 02:03:16,205  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:03:19,223  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 02:03:20,977  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 02:03:21,040  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:03:21,907  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 93 - Shape Fell
+2018-12-24 02:03:22,160  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:03:26,026  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:03:30,401  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:03:31,392  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 02:03:37,307  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:03:42,299  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:03:44,061  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:03:44,073 ERROR [AWT-EventQueue-0] - MainLog.gameOver 64 - can't find audio file
+2018-12-24 02:03:44,074  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 156 - Game Over
+2018-12-24 02:06:21,552  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 02:06:22,695  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 02:06:23,324  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:06:28,503  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:06:33,713  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:06:51,295  INFO [main] - MainLog.start 28 - Main Menu Started Sucessfully!
+2018-12-24 02:06:52,574  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 74 - Game set to hard mode
+2018-12-24 02:06:53,295  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:06:59,437  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:07:00,128  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:07:01,139  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:07:03,285  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:07:10,367  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:07:10,969  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:07:18,513  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 02:07:23,066  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:07:25,058  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:07:25,077  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 11
+2018-12-24 02:07:25,080  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 86 - 3 Matched - Score increased
+2018-12-24 02:07:53,646 ERROR [AWT-EventQueue-0] - MainLog.gameOver 64 - can't find audio file
+2018-12-24 02:07:53,647  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 177 - Game Over
+2018-12-24 02:15:06,255  INFO [main] - MainLog.start 30 - Main Menu Started Sucessfully!
+2018-12-24 02:15:07,301  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 64 - Game set to hard mode
+2018-12-24 02:15:07,966  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:15:39,839  INFO [main] - MainLog.start 30 - Main Menu Started Sucessfully!
+2018-12-24 02:15:41,301  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 64 - Game set to hard mode
+2018-12-24 02:15:42,014  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:15:46,700  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:15:46,978  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:15:49,777  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:15:55,767  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:16:00,432  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:16:01,574  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:16:02,155  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:16:03,410  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 69 - Shape Caught
+2018-12-24 02:16:11,786  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:16:13,811  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 02:16:14,076  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 02:16:14,342  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 02:16:14,605  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:16:14,675  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 02:16:14,930  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 133 - Shape Fell
+2018-12-24 02:16:15,119  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:16:16,923  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:16:19,326  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:16:20,874  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 112 - Shape Caught
+2018-12-24 02:16:41,342 ERROR [AWT-EventQueue-0] - MainLog.gameOver 64 - can't find audio file2
+2018-12-24 02:16:41,342  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 177 - Game Over
+2018-12-24 02:18:40,822  INFO [main] - MainLog.start 30 - Main Menu Started Sucessfully!
+2018-12-24 02:18:47,365  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 64 - Game set to hard mode
+2018-12-24 02:18:48,062  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:19:00,626  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:19:01,748  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:19:11,037  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:19:21,033  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:19:29,406  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:19:32,653  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 94 - Shape Fell
+2018-12-24 02:19:43,653  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:19:43,736  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:19:44,934  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:19:46,724  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 94 - Shape Fell
+2018-12-24 02:19:47,311  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 94 - Shape Fell
+2018-12-24 02:19:47,414 ERROR [AWT-EventQueue-0] - MainLog.gameOver 64 - can't find audio file2
+2018-12-24 02:19:47,415  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 178 - Game Over
+2018-12-24 02:20:34,427  INFO [main] - MainLog.start 30 - Main Menu Started Sucessfully!
+2018-12-24 02:20:37,348  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 64 - Game set to hard mode
+2018-12-24 02:20:38,226  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:20:44,190  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:20:47,801  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 94 - Shape Fell
+2018-12-24 02:20:56,945  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:21:05,203  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:21:06,126  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:21:32,717  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:21:35,633  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:21:37,404  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 178 - Game Over
+2018-12-24 02:24:04,042  INFO [main] - MainLog.start 30 - Main Menu Started Sucessfully!
+2018-12-24 02:24:05,235  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 64 - Game set to hard mode
+2018-12-24 02:24:06,122  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:24:12,694  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:24:15,125  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:24:15,260 ERROR [AWT-EventQueue-0] - MainLog.gameOver 64 - can't find audio file2
+2018-12-24 02:24:15,260  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 178 - Game Over
+2018-12-24 02:25:03,936  INFO [main] - MainLog.start 30 - Main Menu Started Sucessfully!
+2018-12-24 02:25:05,355  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 64 - Game set to hard mode
+2018-12-24 02:25:06,366  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:25:11,273  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:25:12,445  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:25:12,911  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:25:14,978  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:25:15,418  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 178 - Game Over
+2018-12-24 02:25:41,624  INFO [main] - MainLog.start 30 - Main Menu Started Sucessfully!
+2018-12-24 02:25:42,523  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 64 - Game set to hard mode
+2018-12-24 02:25:43,452  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:25:49,212  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:25:52,119  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:25:52,623  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 178 - Game Over
+2018-12-24 02:29:14,079  INFO [main] - MainLog.start 30 - Main Menu Started Sucessfully!
+2018-12-24 02:29:15,098  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 64 - Game set to hard mode
+2018-12-24 02:29:15,940  INFO [AWT-EventQueue-0] - MainLog.<init> 175 - Game Started
+2018-12-24 02:29:21,077  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:29:22,394  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:29:24,385  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 94 - Shape Fell
+2018-12-24 02:29:24,935  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:29:26,913  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:29:28,831  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:29:29,632  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:29:31,272  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 94 - Shape Fell
+2018-12-24 02:29:33,785  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:29:33,897  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 70 - Shape Caught
+2018-12-24 02:29:41,233  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught
+2018-12-24 02:29:41,239  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 1
+2018-12-24 02:29:41,240  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 128 - 3 View.Shapes Matched
+2018-12-24 02:29:43,281  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 113 - Shape Caught

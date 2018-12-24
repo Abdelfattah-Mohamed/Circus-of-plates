@@ -19,6 +19,6 @@ public class Score extends Observer {
 		// TODO this must be called from strategy
 		GameLogger.getInstance().log.debug("Score increased by: "+num);
 		game.setScore(game.getScore() + strategy.score());
-		GameLogger.getInstance().log.info("Score: "+ game.getScore() + strategy.score());
+		GameLogger.getInstance().log.info("Score: "+ game.getScore() );
 	}
 }

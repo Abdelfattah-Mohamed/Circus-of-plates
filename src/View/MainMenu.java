@@ -23,6 +23,8 @@ public class MainMenu {
         menuBarGenerator.setStrategy(buttonGenerator.getStrategy());
         buttonGenerator.generate();
         GameDifficultyBox difficultyBox = new GameDifficultyBox(gameController[0],resolution,menuBarGenerator.menuBar);
+        difficultyBox.setFrame();
+        buttonGenerator.setFrame(difficultyBox.getFrame());
         difficultyBox.setButtonGenerator(buttonGenerator);
         difficultyBox.generate();
         GameLogger.getInstance().log.info("Main Menu Started Sucessfully!");

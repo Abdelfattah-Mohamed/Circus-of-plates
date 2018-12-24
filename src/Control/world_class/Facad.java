@@ -24,7 +24,7 @@ public class Facad implements IFacad{
     private static Caretaker caretaker;
     private static Originator originator;
     private Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-
+    private boolean flag = false;
     public Facad(Circus game){
         //initializing the observers
         t = new Time(game);
@@ -44,12 +44,13 @@ public class Facad implements IFacad{
         GameObject lastplateR = game.getControlR().get(game.getControlR().size() - 1);
         Iterator_concrete xx;
         xx = new Iterator_concrete(game.getMoving()); // handle moving plates here
-        long timeleft = System.currentTimeMillis() - game.getStartTime() - game.getMaxTime();
-        GameLogger.getInstance().log.debug("Time Left: "+ timeleft*-1);
-        timeleft*=-1;
-        if(timeleft<=5){
+        long timepassed = System.currentTimeMillis() - game.getStartTime() ;
+        GameLogger.getInstance().log.debug("Time passed: "+ timepassed);
+        
+        if(timepassed>=game.getMaxTime()-5){
             //TODO ticktock
             View.addition_classes.Sound.getInstance().almostDone();
+            
         }
         boolean timeout = System.currentTimeMillis() - game.getStartTime() > game.getMaxTime(); // time end and game over
         for (Iterator iter = xx.getIterator(0); iter.hasNext();) {
@@ -149,24 +150,33 @@ public class Facad implements IFacad{
         
         if(lastplateR.getY()<=game.getMaxY() || lastplateL.getY()<=game.getMaxY()) {
             //TODO LOSS
+        	if(!flag) {
+        		flag=true;
             View.addition_classes.Sound.getInstance().gameOver();
             View.addition_classes.Sound.getInstance().stopTheme();
             GameLogger.getInstance().log.info("Game Over");
+        	}
         	this.game.setTime(0);
         }
        
         if(game.getControl().size()>= game.getMaxNum()+3) {
+        	if(!flag) {
+        		flag=true;
             //TODO LOSS
             View.addition_classes.Sound.getInstance().gameOver();
             View.addition_classes.Sound.getInstance().stopTheme();
             GameLogger.getInstance().log.info("Game Over");
+        	}
         	this.game.setTime(0);
         }
         if(timeout){
+        	if(!flag) {
+        		flag=true;
             //TODO LOSS
             View.addition_classes.Sound.getInstance().gameOver();
             View.addition_classes.Sound.getInstance().stopTheme();
             GameLogger.getInstance().log.info("Game Over");
+        	}
         }
         return !timeout;
     }

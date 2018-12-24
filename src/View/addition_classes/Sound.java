@@ -7,11 +7,12 @@ import java.net.URL;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.sound.sampled.FloatControl;
 
 public class Sound {
 
 	public static Sound sound = new Sound();
-	private Clip Theme, gameOver, tickTock, Gotcha, Three, Two;
+	private Clip Theme, gameOver, tickTock, Gotcha, Three, Two, Start;
 	private static boolean finished = false, almost = false;
 
 	private Sound() {
@@ -27,12 +28,14 @@ public class Sound {
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
             Theme = AudioSystem.getClip();
             Theme.open(audioIn);
+            FloatControl gainControl = (FloatControl) Theme.getControl(FloatControl.Type.MASTER_GAIN);
+            gainControl.setValue(-12.0f);
             Theme.start();
             URL url1 = Sound.class.getResource("/start.wav");
             AudioInputStream audioIn1 = AudioSystem.getAudioInputStream(url1);
-            Theme = AudioSystem.getClip();
-            Theme.open(audioIn1);
-            Theme.start();
+            Start = AudioSystem.getClip();
+            Start.open(audioIn1);
+            Start.start();
 			GameLogger.getInstance().log.debug("Music set to theme.wav");
 		} catch (Exception e) {
 			GameLogger.getInstance().log.error("can't find audio file");
@@ -52,13 +55,13 @@ public class Sound {
 				gameOver = AudioSystem.getClip();
 				gameOver.open(audioIn);
 				gameOver.start();
-				Three.stop();
+				//Three.stop();
 				Theme.stop();
-				Two.stop();
-				tickTock.stop();
+				//Two.stop();
+				//tickTock.stop();
 				Gotcha.stop();
 			} catch (Exception e) {
-				GameLogger.getInstance().log.error("can't find audio file");
+				GameLogger.getInstance().log.error("can't find audio file2");
 			}
 		}
 	}
@@ -78,7 +81,7 @@ public class Sound {
 
 				tickTock.start();
 			} catch (Exception e) {
-				GameLogger.getInstance().log.error("can't find audio file");
+				GameLogger.getInstance().log.error("can't find audio file1");
 			}
 		}
 	}
@@ -89,10 +92,8 @@ public class Sound {
 			AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
 			Gotcha = AudioSystem.getClip();
 			Gotcha.open(audioIn);
-//
-//			FloatControl gainControl =
-//				    (FloatControl) gameOver.getControl(FloatControl.Type.MASTER_GAIN);
-//				gainControl.setValue(-2.0f);
+//            FloatControl gainControl = (FloatControl) Gotcha.getControl(FloatControl.Type.MASTER_GAIN);
+//            gainControl.setValue(+5.0f);
 
 			Gotcha.start();
 		} catch (Exception e) {
