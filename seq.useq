@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="Main" project="circus" file="/circus/src/Main.java" binary="false" label="main" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="143" y="0"/>    
+    <execution id="2">      
+      <position height="96" width="102" x="5" y="161"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="24" width="102" x="5" y="209"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="javax.swing.JMenuBar" project="circus" 
+    file="C:/Program Files/Java/jre1.8.0_162/lib/rt.jar" binary="true" label="menuBar" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>  
+  </object>  
+  <object id="6" language="java" name="java.awt.Button" project="circus" 
+    file="C:/Program Files/Java/jre1.8.0_162/lib/rt.jar" binary="true" label="e" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="72" width="71" x="317" y="89"/>    
+    </execution>  
+  </object>  
+  <object id="10" language="java" name="world_class.Circus" project="circus" file="/circus/src/world_class/Circus.java" 
+    binary="false" label="circus" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="587" y="0"/>    
+    <execution id="11">      
+      <position height="252" width="74" x="392" y="229"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="180" width="74" x="392" y="277"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="24" width="74" x="496" y="113"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="5139" width="74" x="496" y="487"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="4822" width="74" x="496" y="535"/>    
+    </execution>    
+    <execution id="70">      
+      <position height="24" width="7" x="533" y="3796"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="24" width="7" x="533" y="5393"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="24" width="7" x="533" y="5496"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="24" width="7" x="530" y="5578"/>    
+    </execution>  
+  </object>  
+  <object id="81" language="java" name="to_come.ImageObject" project="circus" 
+    file="/circus/src/to_come/ImageObject.java" binary="false" label="bg" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="52">      
+      <position height="216" width="0" x="0" y="1762"/>    
+    </execution>    
+    <execution id="90">      
+      <position height="300" width="112" x="574" y="2030"/>    
+    </execution>    
+    <execution id="92">      
+      <position height="228" width="112" x="574" y="2078"/>    
+    </execution>  
+  </object>  
+  <object id="101" language="java" name="to_come.State" project="circus" file="/circus/src/to_come/State.java" 
+    binary="false" label="state" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="83">      
+      <position height="24" width="0" x="0" y="1786"/>    
+    </execution>    
+    <execution id="85">      
+      <position height="24" width="0" x="0" y="1834"/>    
+    </execution>    
+    <execution id="94">      
+      <position height="24" width="0" x="0" y="2114"/>    
+    </execution>    
+    <execution id="96">      
+      <position height="24" width="0" x="0" y="2162"/>    
+    </execution>    
+    <execution id="98">      
+      <position height="24" width="0" x="0" y="2210"/>    
+    </execution>    
+    <execution id="100">      
+      <position height="24" width="0" x="0" y="2258"/>    
+    </execution>  
+  </object>  
+  <object id="102" language="java" name="to_come.MovingImageObject" project="circus" 
+    file="/circus/src/to_come/MovingImageObject.java" binary="false" label="movingImageObject1" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="1201" y="0"/>  
+  </object>  
+  <object id="103" language="java" name="to_come.IShape" project="circus" file="/circus/src/to_come/IShape.java" 
+    binary="false" label="image" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="87">      
+      <position height="24" width="0" x="0" y="1882"/>    
+    </execution>    
+    <execution id="89">      
+      <position height="24" width="0" x="0" y="1930"/>    
+    </execution>  
+  </object>  
+  <object id="104" language="java" name="strategy_difficulty.Strategy" project="circus" 
+    file="/circus/src/strategy_difficulty/Strategy.java" binary="false" label="difficulty" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="64">      
+      <position height="24" width="0" x="0" y="3485"/>    
+    </execution>    
+    <execution id="66">      
+      <position height="24" width="0" x="0" y="3533"/>    
+    </execution>    
+    <execution id="68">      
+      <position height="24" width="0" x="0" y="3581"/>    
+    </execution>    
+    <execution id="46">      
+      <position height="24" width="0" x="0" y="1517"/>    
+    </execution>    
+    <execution id="48">      
+      <position height="24" width="0" x="0" y="1565"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="24" width="0" x="0" y="1613"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="24" width="0" x="0" y="571"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="24" width="0" x="0" y="619"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="24" width="0" x="0" y="667"/>    
+    </execution>  
+  </object>  
+  <object id="105" language="java" name="to_come.MovingPool" project="circus" file="/circus/src/to_come/MovingPool.java" 
+    binary="false" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="72">      
+      <position height="24" width="0" x="0" y="5117"/>    
+    </execution>    
+    <execution id="54">      
+      <position height="24" width="0" x="0" y="3149"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="24" width="0" x="0" y="1277"/>    
+    </execution>  
+  </object>  
+  <object id="106" language="java" name="to_come.MovingPool" project="circus" file="/circus/src/to_come/MovingPool.java" 
+    binary="false" label="mpl" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="74">      
+      <position height="24" width="0" x="0" y="5165"/>    
+    </execution>    
+    <execution id="76">      
+      <position height="24" width="0" x="0" y="5213"/>    
+    </execution>    
+    <execution id="78">      
+      <position height="24" width="0" x="0" y="5261"/>    
+    </execution>    
+    <execution id="56">      
+      <position height="24" width="0" x="0" y="3197"/>    
+    </execution>    
+    <execution id="58">      
+      <position height="24" width="0" x="0" y="3245"/>    
+    </execution>    
+    <execution id="60">      
+      <position height="24" width="0" x="0" y="3389"/>    
+    </execution>    
+    <execution id="38">      
+      <position height="24" width="0" x="0" y="1325"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="24" width="0" x="0" y="1373"/>    
+    </execution>    
+    <execution id="42">      
+      <position height="24" width="0" x="0" y="1421"/>    
+    </execution>  
+  </object>  
+  <object id="107" language="java" name="java.util.HashMap" project="circus" 
+    file="C:/Program Files/Java/jre1.8.0_162/lib/rt.jar" binary="true" label="classMap" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>  
+  </object>  
+  <object id="108" language="java" name="world_class.IFacad" project="circus" file="/circus/src/world_class/IFacad.java" 
+    binary="false" label="logic" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="15">      
+      <position height="24" width="0" x="0" y="313"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="24" width="0" x="0" y="361"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="24" width="0" x="0" y="409"/>    
+    </execution>    
+    <execution id="80">      
+      <position height="24" width="0" x="0" y="5309"/>    
+    </execution>    
+    <execution id="62">      
+      <position height="24" width="0" x="0" y="3437"/>    
+    </execution>    
+    <execution id="44">      
+      <position height="24" width="0" x="0" y="1469"/>    
+    </execution>  
+  </object>  
+  <object id="109" language="java" name="to_come.MovingPool" project="circus" file="/circus/src/to_come/MovingPool.java" 
+    binary="false" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>  
+  </object>  
+  <combined-fragment id="110" interaction-operator="ALT">    
+    <interaction-operand id="111" constraint="num1 == 1">      
+      <fragment refId="112"/>    
+    </interaction-operand>    
+    <interaction-operand id="113" constraint="else">      
+      <fragment refId="114"/>    
+    </interaction-operand>    
+    <combined-fragment id="114" interaction-operator="ALT">      
+      <interaction-operand id="115" constraint="num1 == 2">        
+        <fragment refId="116"/>      
+      </interaction-operand>      
+      <interaction-operand id="117" constraint="else">        
+        <fragment refId="118"/>      
+      </interaction-operand>    
+    </combined-fragment>  
+  </combined-fragment>  
+  <message id="3" operation="main(java.lang.String[]):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="8" asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="12" operation="refresh():boolean" asynchronous="false">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="pooling():void" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="iterate():void" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="refreshLogic():boolean" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="21" operation="Circus(int,int,strategy_difficulty.Strategy)" asynchronous="false">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="setCurrentMementoR(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="getCurrentMementoL():int" asynchronous="false">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" operation="getCurrentMementoR():int" asynchronous="false">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="29" operation="getMaxTime():int" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="31" operation="maxHeightOfPlate():int" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="33" operation="noOfShapes():int" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" operation="getInstance():to_come.MovingPool" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="37" operation="setNum(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="39" operation="setPool(int,int):void" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" operation="usePool():java.util.ArrayList&lt;GameObject&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" operation="Facad(world_class.Circus)" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" operation="getMaxTime():int" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="47" operation="maxHeightOfPlate():int" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="48"/>  
+  </message>  
+  <message id="49" operation="noOfShapes():int" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="50"/>  
+  </message>  
+  <message id="51" operation="ImageObject(int,int,to_come.IShape,int,to_come.State)" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>  
+  <message id="53" operation="getInstance():to_come.MovingPool" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="54"/>  
+  </message>  
+  <message id="55" operation="setNum(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="56"/>  
+  </message>  
+  <message id="57" operation="setPool(int,int):void" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>  
+  <message id="59" operation="usePool():java.util.ArrayList&lt;GameObject&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="60"/>  
+  </message>  
+  <message id="61" operation="Facad(world_class.Circus)" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="62"/>  
+  </message>  
+  <message id="63" operation="getMaxTime():int" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="65" operation="maxHeightOfPlate():int" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="66"/>  
+  </message>  
+  <message id="67" operation="noOfShapes():int" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="68"/>  
+  </message>  
+  <message id="69" operation="setCurrentMementoL(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>  
+  <message id="71" operation="getInstance():to_come.MovingPool" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="72"/>  
+  </message>  
+  <message id="73" operation="setNum(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="74"/>  
+  </message>  
+  <message id="75" operation="setPool(int,int):void" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="76"/>  
+  </message>  
+  <message id="77" operation="usePool():java.util.ArrayList&lt;GameObject&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="78"/>  
+  </message>  
+  <message id="79" operation="Facad(world_class.Circus)" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="80"/>  
+  </message>  
+  <message id="82" operation="setX(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="83"/>  
+  </message>  
+  <message id="84" operation="setY(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="85"/>  
+  </message>  
+  <message id="86" operation="getColor():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="87"/>  
+  </message>  
+  <message id="88" operation="getImage():java.awt.image.BufferedImage" asynchronous="false">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="89"/>  
+  </message>  
+  <message id="91" operation="setState(to_come.State):void" asynchronous="false">    
+    <end type="SOURCE" refId="90"/>    
+    <end type="TARGET" refId="92"/>  
+  </message>  
+  <message id="93" operation="setX(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="92"/>    
+    <end type="TARGET" refId="94"/>  
+  </message>  
+  <message id="95" operation="getX():int" asynchronous="false">    
+    <end type="SOURCE" refId="92"/>    
+    <end type="TARGET" refId="96"/>  
+  </message>  
+  <message id="97" operation="setY(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="92"/>    
+    <end type="TARGET" refId="98"/>  
+  </message>  
+  <message id="99" operation="getY():int" asynchronous="false">    
+    <end type="SOURCE" refId="92"/>    
+    <end type="TARGET" refId="100"/>  
+  </message>
+</sequence-diagram>
