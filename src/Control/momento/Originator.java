@@ -6,26 +6,26 @@ import java.util.ArrayList;
 
 public class Originator {
 
-	private ArrayList state = new ArrayList();
+	private ArrayList<?> state = new ArrayList<Object>();
 
 	// Sets the value for the article
 
-	public void set(ArrayList newControl) {
-		this.state = (ArrayList) newControl.clone();
+	public void set(ArrayList<?> newControl) {
+		this.state = (ArrayList<?>) newControl.clone();
 	}
 
 	// Creates a new Memento with a new article
 
 	public Memento storeInMemento() {
-		return new Memento((ArrayList) state.clone());
+		return new Memento((ArrayList<?>) state.clone());
 	}
 
 	// Gets the article currently stored in memento
 
-	public ArrayList restoreFromMemento(Memento memento) {
+	public ArrayList<?> restoreFromMemento(Memento memento) {
 
-		state = (ArrayList) memento.getSaved().clone();
-		return (ArrayList) state.clone();
+		state = (ArrayList<?>) memento.getSaved().clone();
+		return (ArrayList<?>) state.clone();
 
 	}
 

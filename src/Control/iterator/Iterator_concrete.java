@@ -6,10 +6,9 @@ import java.util.ArrayList;
 
 public class Iterator_concrete implements Container {
 
-	private ArrayList al;
+	private ArrayList<?> al;
 
-	// here we make the given array list equals to the one used here
-	public Iterator_concrete(ArrayList x) {
+	public Iterator_concrete(ArrayList<?> x) {
 		this.al = x;
 	}
 
@@ -17,15 +16,14 @@ public class Iterator_concrete implements Container {
 	public Iterator getIterator(int x) {
 		return new NameIterator(x);
 	}
-	
 
 	private class NameIterator implements Iterator {
 
-		private int index ;
-		public NameIterator(int  x) {
+		private int index;
+
+		public NameIterator(int x) {
 			this.index = x;
 		}
-		
 
 		@Override
 		public boolean hasNext() {

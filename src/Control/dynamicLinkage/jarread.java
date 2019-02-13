@@ -15,6 +15,7 @@ import java.util.jar.JarFile;
 public class jarread {
 	@SuppressWarnings("resource")
 	public List<Class<?>> getCrunchifyClassNamesFromJar(String crunchifyJarName) {
+		crunchifyJarName = "lib\\" + crunchifyJarName;
 		List<Class<?>> listofClasses = new ArrayList<Class<?>>();
 		try {
 			File pathToJar = new File(crunchifyJarName);

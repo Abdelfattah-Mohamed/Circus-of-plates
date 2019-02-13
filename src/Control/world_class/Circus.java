@@ -20,7 +20,7 @@ import java.util.*;
 
 public class Circus implements World {
 
-	private static int MAX_TIME ; 
+	private static int MAX_TIME;
 	private int score = 0;
 	private long startTime = System.currentTimeMillis();
 	private final int width;
@@ -41,6 +41,7 @@ public class Circus implements World {
 	private IFacad logic;
 	private int limitY;
 	private int maxNum;
+
 	public List<Observer> getObservers() {
 		return observers;
 	}
@@ -110,15 +111,16 @@ public class Circus implements World {
 		this.width = width;
 		this.height = height;
 		this.difficulty = difficulty;
-		this.MAX_TIME = this.difficulty.getMaxTime();
-		this.limitY=this.difficulty.maxHeightOfPlate();
-		this.maxNum=this.difficulty.noOfShapes();
+		Circus.MAX_TIME = this.difficulty.getMaxTime();
+		this.limitY = this.difficulty.maxHeightOfPlate();
+		this.maxNum = this.difficulty.noOfShapes();
 		State state;
 		jarread x = new jarread();
 		List<Class<?>> listofClasses = x.getCrunchifyClassNamesFromJar("JAR_F.jar");
 		IShape shape = null;
 		state = new ConstantImageObject();
-		GameLogger.getInstance().log.debug("Circus World initialized Successfully!\tSize: "+width +"x"+height+"\tdifficulty: "+difficulty.getClass().getName()+"\t");
+		GameLogger.getInstance().log.debug("Circus World initialized Successfully!\tSize: " + width + "x" + height
+				+ "\tdifficulty: " + difficulty.getClass().getName() + "\t");
 		// shape = new backGround("0");
 
 		try {
@@ -126,7 +128,6 @@ public class Circus implements World {
 			GameLogger.getInstance().log.debug("View.Shapes list loaded");
 		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
 				| NoSuchMethodException | SecurityException e) {
-			// TODO Auto-generated catch block
 			GameLogger.getInstance().log.error("FAILED TO LOAD SHAPES");
 			e.printStackTrace();
 		}
@@ -138,7 +139,6 @@ public class Circus implements World {
 			GameLogger.getInstance().log.debug("Background loaded Successfully");
 		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
 				| NoSuchMethodException | SecurityException e) {
-			// TODO Auto-generated catch block
 			GameLogger.getInstance().log.error("failed to load the background");
 			e.printStackTrace();
 		}
@@ -149,28 +149,22 @@ public class Circus implements World {
 			GameLogger.getInstance().log.debug("Clown loaded Successfully");
 		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
 				| NoSuchMethodException | SecurityException e) {
-			// TODO Auto-generated catch block
 			GameLogger.getInstance().log.error("FAILED TO LOAD CLOWN");
 			e.printStackTrace();
 		}
 		state = new ControlledImageObject(clown.getX() - 22, clown.getY() + 37);
 		dummyL = new ImageObject(clown.getX() - 22, clown.getY() + 37, shape, 0, state);
 		GameLogger.getInstance().log.debug("Dummy shape generated");
-		// dummyL.setVisible(false);
 		state = new ControlledImageObject(clown.getX() + clown.getWidth() - 55, clown.getY() + 40);
 		dummyR = new ImageObject(clown.getX() + clown.getWidth() - 55, clown.getY() + 40, shape, 0, state);
 		GameLogger.getInstance().log.debug("Dummy shape generated");
-		// dummyR.setVisible(false);
 		GameLogger.getInstance().log.debug("Clown added to the controlled list");
 		control.add(clown);
 		control.add(dummyL);
 		control.add(dummyR);
 		controlR.add(dummyR);
 		controlL.add(dummyL);
-		// TODO first state in memento
-		// play some music
 		Sound.getInstance().startTheme();
-		// moving objects (plates)
 		GameLogger.getInstance().log.debug("Processing moving shapes");
 		GameLogger.getInstance().log.info("Game Started");
 		MovingPool mpl = MovingPool.getInstance();
@@ -225,8 +219,8 @@ public class Circus implements World {
 	public String getStatus() {
 		String s = "Score=" + score + "   |   Time="
 				+ Math.max(0, (MAX_TIME - (System.currentTimeMillis() - startTime)) / 1000);
-		GameLogger.getInstance().log.debug("Status: \"Score=\" + score + \"   |   Time=\"\n" +
-				"\t\t\t\t+ Math.max(0, (MAX_TIME - (System.currentTimeMillis() - startTime)) / 1000)");
+		GameLogger.getInstance().log.debug("Status: \"Score=\" + score + \"   |   Time=\"\n"
+				+ "\t\t\t\t+ Math.max(0, (MAX_TIME - (System.currentTimeMillis() - startTime)) / 1000)");
 		return s; // update status
 	}
 
@@ -241,21 +235,18 @@ public class Circus implements World {
 	}
 
 	public void attach(Observer observer) {
-		// TODO Auto-generated method stub
 		GameLogger.getInstance().log.debug("Observer attached");
 		observers.add(observer);
 	}
 
 	public int getTime() {
-		// TODO Auto-generated method stub
-		return (int) this.MAX_TIME;
+		return (int) Circus.MAX_TIME;
 	}
 
 	public int getScore() {
-		// TODO Auto-generated method stub
 		return this.score;
 	}
-	
+
 	public Circus getCircus() {
 		return this;
 	}
@@ -267,15 +258,15 @@ public class Circus implements World {
 	public void setScore(int score) {
 		score = Math.max(score, 0);
 		this.score = score;
-		GameLogger.getInstance().log.debug("score set: "+score);
+		GameLogger.getInstance().log.debug("score set: " + score);
 	}
 
 	public int getMaxY() {
 		return this.limitY;
 	}
-	
+
 	public int getMaxNum() {
 		return this.maxNum;
 	}
-	
+
 }

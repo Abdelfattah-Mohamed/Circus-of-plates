@@ -1,0 +1,24 @@
+2019-01-03 15:38:32,070  INFO [main] - MainLog.start 26 - Main Menu Started Sucessfully!
+2019-01-03 15:38:34,200  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 116 - Game set to hard mode
+2019-01-03 15:38:35,333  INFO [AWT-EventQueue-0] - MainLog.<init> 169 - Game Started
+2019-01-03 15:38:42,816  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2019-01-03 15:38:47,529  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2019-01-03 15:38:47,984  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2019-01-03 15:38:49,380  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2019-01-03 15:38:50,212  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2019-01-03 15:38:50,278  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 1
+2019-01-03 15:38:50,281  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 119 - 3 View.Shapes Matched
+2019-01-03 15:38:50,823  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2019-01-03 15:38:57,200  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2019-01-03 15:38:57,213  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 2
+2019-01-03 15:38:57,214  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 82 - 3 Matched - Score increased
+2019-01-03 15:38:58,010  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2019-01-03 15:39:02,227  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2019-01-03 15:39:04,824  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2019-01-03 15:39:05,987  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2019-01-03 15:39:05,996  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 3
+2019-01-03 15:39:05,997  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 82 - 3 Matched - Score increased
+2019-01-03 15:39:10,597  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2019-01-03 15:39:12,189  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2019-01-03 15:39:16,957  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 88 - Shape Fell
+2019-01-03 15:39:17,406  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 88 - Shape Fell

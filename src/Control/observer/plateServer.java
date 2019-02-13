@@ -12,7 +12,8 @@ public class plateServer extends Observer {
 
 	private Circus game;
 	MovingPool mpl = MovingPool.getInstance();
-	ArrayList<GameObject> newControl ;
+	ArrayList<GameObject> newControl;
+
 	public plateServer(Circus game) {
 		GameLogger.getInstance().log.debug("plateServer initialized Successfully!");
 		this.game = game;
@@ -24,17 +25,17 @@ public class plateServer extends Observer {
 	public void update(int num) {
 
 		if (num == 1) {
-			operationL(  );
+			operationL();
 		} else if (num == 2) {
 			operationR();
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	private void operationL() {
 
 		game.setCurrentMementoL(game.getCurrentMementoL() - 3);
-		
-		
+
 		for (int k = 0; k < 3; k++) {
 			ImageObject s = (ImageObject) game.getControlL().get(game.getControlL().size() - k - 1);
 			mpl.releaseObj(s);
@@ -49,8 +50,9 @@ public class plateServer extends Observer {
 		Circus.getCaretaker().removeL();
 	}
 
+	@SuppressWarnings("unchecked")
 	private void operationR() {
-		
+
 		if (game.getCurrentMementoR() >= 1) {
 			game.setCurrentMementoR(game.getCurrentMementoR() - 3);
 			for (int k = 0; k < 3; k++) {

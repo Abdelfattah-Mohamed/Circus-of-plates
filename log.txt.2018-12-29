@@ -1,0 +1,29 @@
+2018-12-29 11:44:27,179  INFO [main] - MainLog.start 26 - Main Menu Started Sucessfully!
+2018-12-29 11:44:31,499  INFO [AWT-EventQueue-0] - MainLog.actionPerformed 116 - Game set to hard mode
+2018-12-29 11:44:33,531  INFO [AWT-EventQueue-0] - MainLog.<init> 169 - Game Started
+2018-12-29 11:44:43,920  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:44:46,759  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:44:53,593  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:44:53,606  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 1
+2018-12-29 11:44:53,608  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 119 - 3 View.Shapes Matched
+2018-12-29 11:44:57,131  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:44:58,866  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:45:04,629  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:45:04,644  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 2
+2018-12-29 11:45:04,646  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 119 - 3 View.Shapes Matched
+2018-12-29 11:45:05,718  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:45:07,462  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:45:10,959  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:45:10,976  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 3
+2018-12-29 11:45:10,978  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 119 - 3 View.Shapes Matched
+2018-12-29 11:45:17,039  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:45:17,105  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2018-12-29 11:45:17,523  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 88 - Shape Fell
+2018-12-29 11:45:18,159  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:45:18,426  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2018-12-29 11:45:20,702  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 66 - Shape Caught
+2018-12-29 11:45:26,966  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:45:31,169  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 105 - Shape Caught
+2018-12-29 11:45:31,183  INFO [AWT-EventQueue-0] - MainLog.update 22 - Score: 3
+2018-12-29 11:45:31,184  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 119 - 3 View.Shapes Matched
+2018-12-29 11:45:35,552  INFO [AWT-EventQueue-0] - MainLog.refreshLogic 165 - Game Over
